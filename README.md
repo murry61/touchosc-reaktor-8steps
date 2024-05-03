@@ -1,22 +1,15 @@
 ## REAKTOR-BLOCKS-8-STEPS-TouchOSC-Layout
+
 <div align="center"> 
 
-![](images/img0.TouchOSC-Reaktor-8STEPS_1.gif)
+![](images/img0.gif)
 
 </div>
 
 
 ### Description
 
-This is a TouchOSC template to use it as an external sequencer controller for your musical production setup. With it you can use your hands-on to play and control a BLOCKS REAKTOR 8 STEPS sequencer for your virtual instruments in your Ableton DAW or even with an external modular instrument using Ableton CV tools. It follows the sequence steps on sync, lighting them and giving a visual and incredible interactive experience. The main motivation to design this template was to have a hands-on experience with the realization of a touch controller as a “physical” sequencer to play your virtual instruments or even your external modular gear in a hybrid setup. 
-
-<div align="center"> 
-  
-  ![8STEPS](images/img1.BENTO_8_Steps.jpg)
-  
-  ![](images/img2.Reaktor-8STEPS_layout.png)
-
-</div>
+This is a TouchOSC template to use it as an external sequencer midi controller for your musical production setup. With it you can use your hands-on to play and control a BLOCKS REAKTOR 8 STEPS sequencer for your virtual instruments in your Ableton DAW or even with an external modular instrument using Ableton CV tools. It follows the sequence steps on sync, lighting them and giving a visual and incredible interactive experience. The main motivation to design this template was to have a hands-on experience with the realization of a touch controller as a “physical” sequencer to play your virtual instruments or even your external modular gear in a hybrid setup. 
 
 ---
 
@@ -39,9 +32,9 @@ The template is designed to work with Reaktor 6 hosted inside Ableton Live. You 
 
 | File | Description   |
 | ------------ | ------------ |
-|  Reaktor 8STEPS - 1.11.tosc | The TouchOSC template to control the Reaktor Blocks 8 Steps Sequencer  |
-| Reaktor-8 STEPS-1.11.als   | Ableton Live Template   |
-| 8-STEPS-1.11.nksr  | Reaktor 6 - 8 Steps preset   |
+|  [Reaktor 8STEPS - 1.11.tosc](Reaktor-8STEPS-1.11.01.tosc) | The TouchOSC template to control the Reaktor Blocks 8 Steps Sequencer  |
+| [Reaktor-8 STEPS-1.11.als](files/Reaktor-8-STEPS-1.11.als)   | Ableton Live Template   |
+| [8-STEPS-1.11.nksr](files/8-STEPS-1.11_.nksr)  | Reaktor 6 - 8 Steps preset   |
 
 Ableton Live provides midi feedback to the TouchOSC template using a [device control mapping](images/img4.Ableton_Reaktor_Device_Controller.jpg). This allows bidirectionality and automatic update of each control when you change it either in the TouchOSC template or in the Reaktor 6 plugin. The Ableton Live template has all the [midi mappings](images/img9. Ableton-MIDI-map.jpg) already configured. You need to configure [TouchOSC Bridge](images/img5.TouchOSC_Bridge_config.jpg) in Ableton Live with Track, Sync and the Remote-control options,already configured in the included Ableton Live template.
 
@@ -82,7 +75,15 @@ Just two [OSC mappings](images/img7.Reaktor_OSC_map.jpg) are used in Reaktor, wh
 11. Configure your sequence as you wish: direction, steps, offset, velocity, glide, gate, gate rate, bpm and so on
 12. You are ready to play. Enjoy!
 
+---
+
 #### Notes
+
+<div align="center"> 
+  
+  <img src="images/img2.Reaktor-8STEPS_layout.png" with=500 height=500>
+
+</div>
 
 **PLAY**. Once you press the PLAY button your sequence start playing. You can change any parameter of the template while running as you wish. The template will keep on sync with the beat. 
 
@@ -98,3 +99,6 @@ Manual Gate. A diamond shaped button is provided to trigger a manual gate to mov
 **MIDI OUT CC 101**. This is an important midi signal that the template uses for gate control. Do not unintentionally unwire it, to prevent your template to fail. 
 
 **RACK PRESET MODIFICATIONS**. You can of course modify and add any blocks you wish to your Reaktor rack. For example, you could want to add a quantizer, a clock divider or some utility blocks. The only constraint is to keep the essential wiring on place of the original preset. 
+
+---
+
