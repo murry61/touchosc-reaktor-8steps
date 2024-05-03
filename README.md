@@ -9,7 +9,7 @@
 
 ### Description
 
-This is a TouchOSC template to use it as an external sequencer midi controller for your musical production setup. With it you can use your hands-on to play and control a BLOCKS REAKTOR 8 STEPS sequencer for your virtual instruments in your Ableton DAW or even with an external modular instrument using Ableton CV tools. It follows the sequence steps on sync, lighting them and giving a visual and incredible interactive experience. The main motivation to design this template was to have a hands-on experience with the realization of a touch controller as a “physical” sequencer to play your virtual instruments or even your external modular gear in a hybrid setup. 
+A Reaktor 8 STEPS Sequencer TouchOSC template to use it as an external sequencer midi surface controller for your musical production setup. With it you can use your hands-on to play and control a BLOCKS REAKTOR 8 STEPS sequencer for your virtual instruments in your Ableton DAW or even with an external modular instrument using Ableton CV tools. It follows the sequence steps on sync, lighting them and giving a visual and incredible interactive experience. The main motivation to design this template was to have a hands-on experience with the realization of a touch controller as a “physical” sequencer to play your virtual instruments or even your external modular gear in a hybrid setup. 
 
 ---
 
