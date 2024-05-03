@@ -1,4 +1,4 @@
-## REAKTOR-BLOCKS-8-STEPS-TouchOSC-Layout
+## REAKTOR 8 STEPS SEQUENCER CONTROLLER - TouchOSC template
 
 <div align="center"> 
 
