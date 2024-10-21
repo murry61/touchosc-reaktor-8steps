@@ -58,19 +58,4 @@ Supporting means a lot to me, this will help me to continue building. <p>
 
 ---
 
-<br>
 
-### Roadmap:
-
-#### Version 2:
-- Position control enhancements
-- Direction, Step, Offset radial controls enhancements
-- OSC mapping control to Reaktor rack 	
-- No use of Ableton Live template
-- Keyboard included in the template for Pitch tracking (transpose)
-
-#### Version 3:
-- 3 Tracks Sequencer
-- Standalone operation (no DAW hosted)
-- MIDI and CV output
-- 4 Snapshots
