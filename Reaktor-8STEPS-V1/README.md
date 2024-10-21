@@ -105,13 +105,13 @@ The following files are included in the repository to quickly setup and run the 
 | ------------ | ------------ |
 | [Reaktor 8STEPS - 1.11.tosc](touchosc/Reaktor-8STEPS-1.11.01.tosc) | The TouchOSC template to control the Reaktor 8Steps Sequencer  |
 | [Reaktor-8 STEPS-1.11.als](files/Reaktor-8-STEPS-1.11.als)   | The Ableton Live Template   |
-| [8-STEPS-1.11.nksr](files/8-STEPS-1.11_.nksr)  | The Reaktor 8Steps rack file inclding blocks and wiring |
+| [8-STEPS-1.11.nksr](files/8-STEPS-1.11_.nksr)  | The Reaktor 8Steps rack file with modular blocks and wiring |
 
 ---
 
 ### Support the Author
 <p> 
-I'm passionate about creating code that brings joy, inspiration, and creativity into people's lives. If you've enjoyed what I share and want to help me keep doing it, your support would will help me to continue building. Every little bit helps fuel my creativity. 
+I'm passionate about creating code that brings joy, inspiration, and creativity into people's lives. If you've enjoyed what I share and want to support my work, your contribution will help me to continue building. Every little bit fuels my creativity.
 </p>
 
 **_Thank you for your kindness and support!_** 
@@ -119,3 +119,5 @@ I'm passionate about creating code that brings joy, inspiration, and creativity 
 <a href="https://www.buymeacoffee.com/r1c4rd0" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 ---
+
+[Downloads](https://img.shields.io/github/downloads/:user/:repo/total)
