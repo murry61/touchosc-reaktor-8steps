@@ -1,4 +1,6 @@
 ## REAKTOR 8 STEPS SEQUENCER CONTROLLER - TouchOSC template
+- Version: 1.0 
+- Release: 1.11.01 (240503)
 
 This is a TouchOSC template for a Reaktor 8 STEPS Sequencer that materializes a small "physical" sequencer for your musical production workflow. You can use your hands-on to play and control a REAKTOR 8STEPS sequencer to play your Ableton virtual instruments or also an external modular gear using Ableton CV tools. The template follows and light the sequence steps on sync, providing an inspiring visual and interactive experience.
 

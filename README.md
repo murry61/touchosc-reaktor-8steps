@@ -1,7 +1,7 @@
 ## REAKTOR 8 STEPS SEQUENCER - TouchOSC templates
 
 ### Description
-This repository contains a collection of Reaktor 8 STEPS Sequencer TouchOSC templates to use it as an external sequencer surface controller for your musical production setup. With it you can use your hands-on to play and control a BLOCKS REAKTOR 8 STEPS sequencer for your virtual instruments in your DAW or even with an external modular instrument using Ableton CV tools. 
+This repository contains a collection of Reaktor 8STEPS Sequencer TouchOSC templates to use as an external sequencer surface controllers for your musical production setup.
 
 <div align="center"> 
 
@@ -15,24 +15,27 @@ This repository contains a collection of Reaktor 8 STEPS Sequencer TouchOSC temp
 
 | Version | Release | Status | Description   |
 | ------------ | ------------ |------------ |------------ |
-|  1 | [1.11.01](Reaktor-8STEPS-V1/) | Released | Reaktor Blocks 8 Steps Sequencer, 1 track, midi out, Hosted in Ableton |
-|  2 |  | On Development |  Reaktor Blocks 8 Steps Sequencer, 1 track, midi out, enhancements |
-|  3 |  | On Development |  Reaktor Blocks 8 Steps Sequencer, 3 track, midi / CV out, Standalone On, 4 snapshots |
+|  1 | [1.11.01](Reaktor-8STEPS-V1/) | Released | Reaktor 8Steps Sequencer, 1 track, midi out, Ableton-Host operation|
+|  2 |  | On Development |  Reaktor Blocks 8 Steps Sequencer, 1 track, midi out, Standalone/DAW-Host operation, enhancements |
+|  3 |  | On Development |  Reaktor Blocks 8 Steps Sequencer, 3 track, midi / CV out, Standalone operation, 4 snapshots |
  
 ---
 
 ### Roadmap
 
 #### Version 2:
+- 2 operation modes: a) DAW-hosted, b)Standalone
 - Position control enhancements
 - Direction, Step, Offset radial controls enhancements
 - OSC mapping control to Reaktor rack 	
-- No use of Ableton Live template. Support to use it with other DAWs
-- Keyboard included in the template for Pitch tracking (transpose)
+- Keyboard teamplate for Pitch tracking (transpose)
 
 #### Version 3:
 - 3 Tracks Sequencer
-- Standalone operation (no DAW hosted)
+- Pause, Mute, link, 
+- Skins
+- 3 clock operation modes: Internal, Ableton link, External Sync clock
+- MIDI Scales
 - MIDI and CV output
 - 4 Snapshots
 
