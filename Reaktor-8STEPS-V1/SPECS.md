@@ -5,9 +5,11 @@
 
 ### VERSION
 - Name: BB-SEQ1x8M Sequencer
-- Release:  1.11.01
+- Version: 1.0 
+- Release: 1.11.01 (240503)
 - Author: Ricardo Acuña
-- Version: 1.0 (240503)
+
+--- 
 
 ### SEQUENCER
 - Instrument: Reaktor Bento Box 8STEPS
@@ -51,7 +53,9 @@
 Supporting means a lot to me, this will help me to continue building. <p>
 <a href="https://www.buymeacoffee.com/r1c4rd0" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
-### NEXT RELEASES ROADMAP:
+---
+
+### ROADMAP:
 
 #### Version 2:
 - Position control enhancements
