@@ -1,5 +1,5 @@
 
-# Reaktor Bento Box 8STEPS Sequencer 
+# REAKTOR 8 STEPS SEQUENCER CONTROLLER - TouchOSC template
 
 ## Specifications
 
