@@ -113,6 +113,7 @@ The following files are included in the repository to quickly setup and run the 
 
 ### License
 ![GitHub License](https://img.shields.io/github/license/murry61/touchosc-reaktor-8steps)
+
 All assets and code are under the MIT LICENSE in the public domain unless specified otherwise.
 
 ---
