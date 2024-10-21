@@ -3,12 +3,6 @@
 ### Description
 This repository contains a collection of Reaktor 8STEPS Sequencer TouchOSC templates to use as an external sequencer surface controllers for your musical production setup.
 
-<div align="center"> 
-
-![](images/img0.gif)
-
-</div>
-
 ---
 
 ### Releases
