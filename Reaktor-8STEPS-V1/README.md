@@ -26,7 +26,7 @@ A Reaktor 8 STEPS Sequencer TouchOSC template to use it as an external sequencer
 ---
 
 ### Setup and Configuration
-The template is designed to work with Reaktor 6 hosted inside Ableton Live. You can use it to play a sequence either on a VST virtual instrument or an external instrument (with MIDI or CV Tools). An important consideration for the design was the use of Ableton Link to keep the synchronization of the sequencer steps with the TouchOSC controller. (Otherwise, the design of the TouchOSC controller with Reaktor standalone, the clock/gate synchronization resulted in a more challenging and difficult task). To make it easy the following files are included in the repository to quickly setup and run it. The files contain all the midi and osc mappings required and the Reaktor 6 rack wiring. 
+The template is designed to work with Reaktor 6 ***HOSTED*** inside Ableton Live. You can use it to play a sequence either with virtual instrument (VST plugin) or with an external instrument (MIDI or CV Tools). An important consideration for the design was the use of Ableton Link to keep the clock synchronization of the sequencer steps with the TouchOSC controller. Tablethe following files are included in the repository to quickly setup and run it. The files contain all the midi and osc mappings required and the Reaktor 6 rack wiring. 
 
 ![](images/img3.Ableton_TouchOSC_setup.jpg)
 
@@ -36,13 +36,13 @@ The template is designed to work with Reaktor 6 hosted inside Ableton Live. You 
 | [Reaktor-8 STEPS-1.11.als](files/Reaktor-8-STEPS-1.11.als)   | Ableton Live Template   |
 | [8-STEPS-1.11.nksr](files/8-STEPS-1.11_.nksr)  | Reaktor 6 - 8 Steps preset   |
 
-Ableton Live provides midi feedback to the TouchOSC template using a [device control mapping](images/img4.Ableton_Reaktor_Device_Controller.jpg). This allows bidirectionality and automatic update of each control when you change it either in the TouchOSC template or in the Reaktor 6 plugin. The Ableton Live template has all the [midi mappings](images/img9. Ableton-MIDI-map.jpg) already configured. You need to configure [TouchOSC Bridge](images/img5.TouchOSC_Bridge_config.jpg) in Ableton Live with Track, Sync and the Remote-control options,already configured in the included Ableton Live template.
+Ableton Live provides midi feedback to the TouchOSC template using a [device control mapping](images/img4.Ableton_Reaktor_Device_Controller.jpg). This allows bidirectionality and automatic update of each control when you change it either in the TouchOSC template or in the Reaktor 6 plugin. The Ableton Live template has all the [midi mappings](images/img9. Ableton-MIDI-map.jpg) already configured. Ableton Live send and receives MIDI signals through [TouchOSC Bridge](images/img5.TouchOSC_Bridge_config.jpg). You need to setup it in Ableton Live with Track, Sync and the Remote-control options.
 
 ---
 
 ### Features
 
-The template has all the functions of the BLOCKS REAKTOR 8 STEPS sequencer, an accurate reproduction of the original virtual instrument. Additionally, it follows the sequence steps on sync, lighting each step and giving a visual and incredible interactive experience. The template scripts contain carefully crafted algorithms to match the sequencer steps progression with the gate and start/stop midi signals.  The complete wiring of the Reaktor rack preset is as follows: 
+The template has all the functions of the BLOCKS REAKTOR 8 STEPS sequencer, an accurate reproduction of the original virtual instrument. Additionally, it follows the sequence steps on sync, lighting each step and giving a visual and interactive experience. The template scripts contain carefully crafted algorithms to match the sequencer steps progression with the gate and start/stop midi signals.  The complete wiring of the Reaktor rack preset is as follows: 
 
 ![](images/img6.Reaktor-8-STEPS-rack.jpg)
 
@@ -63,15 +63,15 @@ Just two [OSC mappings](images/img7.Reaktor_OSC_map.jpg) are used in Reaktor, wh
 ### Instructions
 
 1. Load the TouchOSC template in your Tablet.
-2. Check you have enabled and working the MIDI, OCS, and Bridge connections.
-3. Configure your host IP in your OSC and Bridge connections. 
+2. Check you have enabled and working the MIDI, OSC, and Bridge connections.
+3. Configure the host IP of your computer with TouchOSC Bridge in the OSC and Bridge connections. 
 4. Load the Ableton Live set and the Reaktor preset files in your computer. 
 5. Start the Ableton Live set. The first time, you would need to update the Reaktor preset location by selecting it from your file directory. Then save your live set. 
 6. Enable Ableton Link
 7. Check you have the TouchOSC Bridge configured in Ableton as required.
 8. Check the MIDI/OSC connections are working as pictured in the setup diagram.
-9. The first time you run the template move all the controls to pick-up the controls. 
-10. Select a virtual instrument of your choice in another track (or an external instrument) and select Reaktor 6 as the MIDI input to receive the sequencer output. 
+9. The first time you run the template try moving all the controls to pick-up the controls. 
+10. Select a virtual instrument of your choice in another Ableton track (or an external instrument) and select Reaktor 6 as the MIDI input to receive the sequencer output. 
 11. Configure your sequence as you wish: direction, steps, offset, velocity, glide, gate, gate rate, bpm and so on
 12. You are ready to play. Enjoy!
 
