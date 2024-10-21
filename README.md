@@ -1,7 +1,7 @@
 ## REAKTOR 8 STEPS SEQUENCER - TouchOSC templates
 
 ### Description
-This repository contains a collection of Reaktor 8STEPS Sequencer TouchOSC templates to use as an external sequencer surface controllers for your musical production setup.
+This repository contains a collection of Reaktor 8STEPS Sequencer TouchOSC templates, which can be used as external sequencer surface controllers for your music production setup.
 
 ---
 
@@ -9,25 +9,38 @@ This repository contains a collection of Reaktor 8STEPS Sequencer TouchOSC templ
 
 | Version | Release | Status | Description   |
 | ------------ | ------------ |------------ |------------ |
-|  1 | [1.11.01](Reaktor-8STEPS-V1/) | Released | Reaktor 8Steps Sequencer, 1 track, midi out, Ableton-Host operation|
-|  2 |  | On Development |  Reaktor Blocks 8 Steps Sequencer, 1 track, midi out, Standalone/DAW-Host operation, enhancements |
-|  3 |  | On Development |  Reaktor Blocks 8 Steps Sequencer, 3 track, midi / CV out, Standalone operation, 4 snapshots |
+|  ![Static Badge](https://img.shields.io/badge/1-00FFFFFF)
+ | [1.11.01](Reaktor-8STEPS-V1/) | ![Static Badge](https://img.shields.io/badge/released-00FFFFFF)
+ | Reaktor 8Steps Sequencer, 1 track, midi out, Ableton-Host operation|
+|  ![Static Badge](https://img.shields.io/badge/2-8A2BE2)
+ |  | https://img.shields.io/badge/2-On_Development-8A2BE2
+ |  Reaktor Blocks 8 Steps Sequencer, 1 track, midi out, Standalone/DAW-Host operation, enhancements |
+|  ![Static Badge](https://img.shields.io/badge/3-8A2BE2)
+ |  | ![Static Badge](https://img.shields.io/badge/3-On_Development-8A2BE2)
+ |  Reaktor Blocks 8 Steps Sequencer, 3 track, midi / CV out, Standalone operation, 4 snapshots |
  
 ---
 
 ### Roadmap
 
-#### Version 2:
+[#### Version 1](Reaktor-8STEPS-V1/)
+- 1 operation mode: Ableton DAW-hosted
+- 1 track, 8 STEPS
+- 6 direction modes
+- Ableton link clock
+- MIDI mapping to Ableton device 	
+
+#### Version 2
 - 2 operation modes: a) DAW-hosted, b)Standalone
+- 1 track, 8 STEPS
 - Position control enhancements
 - Direction, Step, Offset radial controls enhancements
 - OSC mapping control to Reaktor rack 	
-- Keyboard teamplate for Pitch tracking (transpose)
+- Keyboard template for Pitch tracking (transpose)
 
-#### Version 3:
-- 3 Tracks Sequencer
-- Pause, Mute, link, 
-- Skins
+#### Version 3
+- 3 Tracks , 8 STEPS 
+- Pause, Mute, link controls 
 - 3 clock operation modes: Internal, Ableton link, External Sync clock
 - MIDI Scales
 - MIDI and CV output
