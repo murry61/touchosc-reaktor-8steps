@@ -3,15 +3,11 @@
 
 ## Specification
 
---- 
-
 ### Version	
 - Name: BB-SEQ1x8M Sequencer
 - Version: 1.0 
 - Release: 1.11.01 (240503)
 - Author: Ricardo Acuña
-
----
 
 ### Sequencer
 - Instrument: Reaktor Bento Box 8STEPS
