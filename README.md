@@ -11,7 +11,7 @@ This repository contains a collection of Reaktor 8STEPS Sequencer TouchOSC templ
 | ------------ | ------------ | ------------ |
 | ![Static Badge](https://img.shields.io/badge/1-green) | [1.11.01](Reaktor-8STEPS-V1/) | Reaktor 8Steps Sequencer, 1 track, midi out, Ableton-Host operation|
 | ![Static Badge](https://img.shields.io/badge/2-red) | ![Static Badge](https://img.shields.io/badge/Development-red) |  Reaktor Blocks 8 Steps Sequencer, 1 track, midi out, Standalone/DAW-Host operation, enhancements |
-| ![Static Badge](https://img.shields.io/badge/3-red | ![Static Badge](https://img.shields.io/badge/Development-red) |  Reaktor Blocks 8 Steps Sequencer, 3 track, midi / CV out, Standalone operation, 4 snapshots |
+| ![Static Badge](https://img.shields.io/badge/3-red) | ![Static Badge](https://img.shields.io/badge/Development-red) |  Reaktor Blocks 8 Steps Sequencer, 3 track, midi / CV out, Standalone operation, 4 snapshots |
  
 ---
 
