@@ -107,6 +107,7 @@ The following files are included in the repository to quickly setup and run the 
 | [Reaktor-8 STEPS-1.11.als](files/Reaktor-8-STEPS-1.11.als)   | The Ableton Live Template   |
 | [8-STEPS-1.11.nksr](files/8-STEPS-1.11_.nksr)  | The Reaktor 8Steps rack file with modular blocks and wiring |
 
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/murry61/touchosc-reaktor-8steps/total)
 ---
 
 ### Support the Author
@@ -120,4 +121,4 @@ I'm passionate about creating code that brings joy, inspiration, and creativity 
 
 ---
 
-[Downloads](https://img.shields.io/github/downloads/:user/:repo/total)
+
