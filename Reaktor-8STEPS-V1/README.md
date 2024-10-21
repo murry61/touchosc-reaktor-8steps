@@ -15,7 +15,9 @@ This is a TouchOSC template for a Reaktor 8 STEPS Sequencer that materializes a 
 ---
 
 <div align="center"> 
+
 ![](images/img0.gif)
+
 </div>
 
 ---
