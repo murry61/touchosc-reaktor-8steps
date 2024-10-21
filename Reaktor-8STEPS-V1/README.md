@@ -6,6 +6,8 @@ A Reaktor 8 STEPS Sequencer TouchOSC template to use it as an external sequencer
 
 ### [Specifications :arrow_right: ](SPECS.md)
 
+---
+
 <div align="center"> 
 
 ![](images/img0.gif)
