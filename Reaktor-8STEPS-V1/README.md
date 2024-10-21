@@ -40,7 +40,7 @@ The template is designed to work with Reaktor 6 ***hosted*** inside Ableton Live
 
 ![](images/img3.Ableton_TouchOSC_setup.jpg)
 
-Ableton Live provides midi feedback to the TouchOSC template using a [device control mapping](images/img4.Ableton_Reaktor_Device_Controller.jpg). This allows bidirectionality and automatic update of each control when you change it either in the TouchOSC template or in the Reaktor plugin. The Ableton Live template has all the [midi mappings](images/img9. Ableton-MIDI-map.jpg) already configured. Ableton Live send and receives MIDI signals through [TouchOSC Bridge](images/img5.TouchOSC_Bridge_config.jpg)configured with the Track, Sync and the Remote-control options.
+Ableton Live provides midi feedback to the TouchOSC template using a [device control mapping](images/img4.Ableton_Reaktor_Device_Controller.jpg). This allows bidirectionality and automatic update of each control when you change, either in the TouchOSC template or in the Reaktor plugin. The Ableton Live template has all the [midi mappings](images/img9. Ableton-MIDI-map.jpg) already configured. Ableton Live send and receives MIDI signals through [TouchOSC Bridge](images/img5.TouchOSC_Bridge_config.jpg)configured with the Track, Sync and the Remote-control options.
 
 ---
 
