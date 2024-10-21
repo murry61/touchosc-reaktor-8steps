@@ -11,6 +11,8 @@ This is a TouchOSC template for a Reaktor 8 STEPS Sequencer that materializes a 
 - [Instructions](#instructions)
 - [Notes](#notes)
 - [Download files](#Download-files)
+- [License](#license)
+- [Support the Author](#support-the-author)
 
 ---
 
@@ -106,6 +108,12 @@ The following files are included in the repository to quickly setup and run the 
 | [Reaktor 8STEPS - 1.11.tosc](touchosc/Reaktor-8STEPS-1.11.01.tosc) | The TouchOSC template to control the Reaktor 8Steps Sequencer  |
 | [Reaktor-8 STEPS-1.11.als](files/Reaktor-8-STEPS-1.11.als)   | The Ableton Live Template   |
 | [8-STEPS-1.11.nksr](files/8-STEPS-1.11_.nksr)  | The Reaktor 8Steps rack file with modular blocks and wiring |
+
+---
+
+### License
+![GitHub License](https://img.shields.io/github/license/murry61/touchosc-reaktor-8steps)
+All assets and code are under the MIT LICENSE in the public domain unless specified otherwise.
 
 ---
 
