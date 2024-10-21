@@ -17,7 +17,7 @@ This repository contains a collection of Reaktor 8STEPS Sequencer TouchOSC templ
 
 ### Roadmap
 
-[#### Version 1](/Reaktor-8STEPS-V1/)
+#### [Version 1](/Reaktor-8STEPS-V1/)
 - 1 operation mode: Ableton DAW-hosted
 - 1 track, 8 STEPS
 - 6 direction modes
