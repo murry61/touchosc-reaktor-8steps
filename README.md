@@ -1,8 +1,7 @@
-## REAKTOR 8 STEPS SEQUENCER CONTROLLER
-TouchOSC templates repository
+## REAKTOR 8 STEPS SEQUENCER - TOUCHOSC TEMPLATES
 
 ### Description
-This repository contains a collection of Reaktor 8 STEPS Sequencer TouchOSC templates to use it as an external sequencer midi surface controller for your musical production setup. With it you can use your hands-on to play and control a BLOCKS REAKTOR 8 STEPS sequencer for your virtual instruments in your Ableton DAW or even with an external modular instrument using Ableton CV tools. 
+This repository contains a collection of Reaktor 8 STEPS Sequencer TouchOSC templates to use it as an external sequencer surface controller for your musical production setup. With it you can use your hands-on to play and control a BLOCKS REAKTOR 8 STEPS sequencer for your virtual instruments in your Ableton DAW or even with an external modular instrument using Ableton CV tools. 
 
 <div align="center"> 
 
@@ -22,7 +21,7 @@ This repository contains a collection of Reaktor 8 STEPS Sequencer TouchOSC temp
  
 ---
 
-### Roadmap:
+### Roadmap
 
 #### Version 2:
 - Position control enhancements
