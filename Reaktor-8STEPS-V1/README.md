@@ -26,13 +26,13 @@ A Reaktor 8 STEPS Sequencer TouchOSC template to use it as an external sequencer
 ---
 
 ### Setup and Configuration
-The template is designed to work with Reaktor 6 ***HOSTED*** inside Ableton Live. You can use it to play a sequence either with virtual instrument (VST plugin) or with an external instrument (MIDI or CV Tools). An important consideration for the design was the use of Ableton Link to keep the clock synchronization of the sequencer steps with the TouchOSC controller. Tablethe following files are included in the repository to quickly setup and run it. The files contain all the midi and osc mappings required and the Reaktor 6 rack wiring. 
+The template is designed to work with Reaktor 6 ***HOSTED*** inside Ableton Live. You can use it to play a sequence either with virtual instrument (VST plugin) or with an external instrument (MIDI or CV Tools). An important consideration for the design was the use of Ableton Link to keep the clock synchronization of the sequencer steps with the TouchOSC controller. The following files are included in the repository to quickly setup and run it. The files contain all the midi and osc mappings required and the Reaktor 6 rack wiring. 
 
 ![](images/img3.Ableton_TouchOSC_setup.jpg)
 
 | File | Description   |
 | ------------ | ------------ |
-|  [Reaktor 8STEPS - 1.11.tosc](Reaktor-8STEPS-1.11.01.tosc) | The TouchOSC template to control the Reaktor Blocks 8 Steps Sequencer  |
+|  [Reaktor 8STEPS - 1.11.tosc](touchosc/Reaktor-8STEPS-1.11.01.tosc) | The TouchOSC template to control the Reaktor Blocks 8 Steps Sequencer  |
 | [Reaktor-8 STEPS-1.11.als](files/Reaktor-8-STEPS-1.11.als)   | Ableton Live Template   |
 | [8-STEPS-1.11.nksr](files/8-STEPS-1.11_.nksr)  | Reaktor 6 - 8 Steps preset   |
 
@@ -64,7 +64,7 @@ Just two [OSC mappings](images/img7.Reaktor_OSC_map.jpg) are used in Reaktor, wh
 
 1. Load the TouchOSC template in your Tablet.
 2. Check you have enabled and working the MIDI, OSC, and Bridge connections.
-3. Configure the host IP of your computer with TouchOSC Bridge in the OSC and Bridge connections. 
+3. Configure in your tablet the OSC and Bridge connections with the host IP of your computer running TouchOSC Bridge. 
 4. Load the Ableton Live set and the Reaktor preset files in your computer. 
 5. Start the Ableton Live set. The first time, you would need to update the Reaktor preset location by selecting it from your file directory. Then save your live set. 
 6. Enable Ableton Link
