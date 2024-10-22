@@ -1,11 +1,13 @@
 ## REAKTOR 8 STEPS SEQUENCER - TouchOSC templates
 
 ### Description
-This repository contains a collection of Reaktor 8STEPS Sequencer TouchOSC templates, which can be used as an external sequencer surface controller running on a tablet for your music production setup. The purpose is to improve your workflow with a hands-on tactile experience, and inspire your productions.  This tool is directed to use your tablet as a kind of "physical" tactile instrument that behaves as a basic sequencer to send MIDI sequences to other virtual instruments hosted in your DAW, and even possible to external synths and modular gear. The development roadmap consist of  3 versions that gradually will extend the core funcionality and add more features.
+This repository contains a collection of Reaktor 8STEPS Sequencer TouchOSC templates, which can be used as an external sequencer surface controller running on a tablet for your music production setup. The purpose is to improve your workflow with a hands-on tactile experience, and inspire your productions.  
+
+This tool is directed to use your tablet as a kind of "physical" tactile instrument that behaves as a basic sequencer to send MIDI sequences to other virtual instruments hosted in your DAW, and even possible to external synths and modular gear. 
 
 The role of the TouchOSC template is to work as a tactile midi controller, whereas the role of the Reaktor 8STEPS intrument is to work as a virtual sequencer "engine". The template sends the transport signals (play, stop, bpm), configure and play the sequencer values (pitch, gate, velocity, gate rate, gate lenght, steps, direction, offset, transpose, reset). The "sequencer engine" responds accordingly sending the midi sequence to the instruments, and sending as well return signals to the template to display accordingly the position steps, providing a visual interactive experience. 
 
-The collection starts with version 1, which consists of one basic 8 steps midi sequencer, hosted in Ableton Live. 
+The development roadmap consist of  3 versions that gradually will extend the core funcionality and add more features.. The collection starts with version 1, which consists of one basic 8 steps midi sequencer, hosted in Ableton Live. 
  
 <div align="center"> 
 
