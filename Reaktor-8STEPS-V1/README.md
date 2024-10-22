@@ -2,7 +2,7 @@
 - Version: 1.0 
 - Release: 1.11.01 (240503)
 
-This is a first version of a TouchOSC template for a Reaktor 8 STEPS Sequencer with basic functionality, easy setup and easy to use operation. It materializes a small "physical" sequencer for your musical production workflow to play your Ableton virtual instruments or even an external modular gear using Ableton CV tools. The template follows and light the sequence steps on sync, providing an inspiring visual interactive experience.
+This is a first version of a TouchOSC template for a Reaktor 8 STEPS Sequencer with basic functionality, easy setup and easy to use operation. It materializes a small "physical" sequencer for your musical production workflow to play your Ableton virtual instruments or even an external modular gear using Ableton CV tools. The template follows and lights the sequence steps on sync, providing an inspiring visual interactive experience.
 
 <div align="center"> 
 
@@ -29,11 +29,11 @@ This is a first version of a TouchOSC template for a Reaktor 8 STEPS Sequencer w
 -   Reaktor 6 (Player or Full), with Blocks Base
 -   A MIDI controller for external pitch
 -   A virtual instrument in your DAW
--   An external instrument using  Ableton CV tools (optional)
+-   An external instrument using Ableton CV tools (optional)
 
 
 ## Connections
-The template is designed to work with Reaktor 6 ***hosted*** inside Ableton Live. You can use it to play a sequence either to a virtual instrument (VST plugin) or to an external instrument (MIDI or CV Tools). An important consideration for the design was the use of Ableton Link to keep the clock synchronization of the sequencer steps with the TouchOSC controller. Ableton Live provides midi feedback to the TouchOSC template using a [device control mapping](images/img4.Ableton_Reaktor_Device_Controller.jpg). This allows bidirectionality and automatic update of each control when you change, either in the TouchOSC template or in the Reaktor plugin. The Ableton Live template has all the [midi mappings](images/img9.Ableton-MIDI-map.jpg) already configured. Ableton Live send and receives MIDI signals through [TouchOSC Bridge](images/img5.TouchOSC_Bridge_config.jpg) configured with the Track, Sync and the Remote-control options.
+The template is designed to work with Reaktor 6 ***hosted*** inside Ableton Live. You can use it to play a sequence either to a virtual instrument (VST plugin) or to an external instrument (MIDI or CV Tools). An important consideration for the design was the use of Ableton Link to keep the clock synchronization of the sequencer steps with the TouchOSC controller. Ableton Live provides midi feedback to the TouchOSC template using a [device control mapping](images/img4.Ableton_Reaktor_Device_Controller.jpg). This allows bidirectionality and automatic update of each control when you change, either in the TouchOSC template or in the Reaktor plugin. The Ableton Live template has all the [midi mappings](images/img9.Ableton-MIDI-map.jpg) already configured. Ableton Live sends and receives MIDI signals through [TouchOSC Bridge](images/img5.TouchOSC_Bridge_config.jpg) configured with the Track, Sync and the Remote-control options.
 
 ![](images/img3.Ableton_TouchOSC_setup.jpg)
 
@@ -65,7 +65,7 @@ Just two [OSC mappings](images/img7.Reaktor_OSC_map.jpg) are used in Reaktor, wh
 6. Enable Ableton Link
 7. Start TouchOSC Bridge and configure in Ableton.
 8. Check the MIDI/OSC connections are working as pictured in the setup diagram.
-9. The first time you run the template try moving all the controls to pick-up the controls. 
+9. The first time you run the template try moving all the controls to pick up the controls. 
 10. Select a virtual instrument of your choice in another Ableton track (or an external instrument) and select Reaktor 6 as the MIDI input to receive the sequencer output. 
 11. Configure your sequence as you wish: direction, steps, offset, velocity, glide, gate, gate rate, bpm and so on
 12. You are ready to play. Enjoy!
@@ -78,21 +78,21 @@ Just two [OSC mappings](images/img7.Reaktor_OSC_map.jpg) are used in Reaktor, wh
   <img src="images/img2.Reaktor-8STEPS_layout.png" with=500 height=500>
 </div>
 
-**PLAY**. Once you press the PLAY button your sequence start playing. You can change any parameter of the template while running as you wish. The template will keep on sync with the beat. 
+**PLAY**. Once you press the PLAY button your sequence starts playing. You can change any parameter of the template while running as you wish. The template will keep on sync with the beat. 
 
-**RESET**. Although the template controller is designed to keep on sync all the time, occasionally it could loose sync, depending on the connection’s latency and the CPU and tablet resources. Just press the RESET button and it will recover. This would probably happen when you select high gate rates 32th or 64th or high BPMs. 
+**RESET**. Although the template controller is designed to keep on sync all the time, occasionally it could lose sync, depending on the connection’s latency and the CPU and tablet resources. Just press the RESET button and it will recover. This would probably happen when you select high gate rates 32th or 64th or high BPMs. 
 
-**C3**. A C3 button is provided to center the pitch off all steps. This is useful when you are starting to set-up a new sequence from scratch.
+**C3**. A C3 button is provided to center the pitch off all steps. This is useful when you are starting to set up a new sequence from scratch.
 
 **Manual Gate**. A diamond shaped button is provided to trigger a manual gate to move one step. This is useful when you are starting to set-up a new sequence from scratch to test the sequence.
 
 **GATE**. Internally the gate control is limited to 100 (not 127), to prevent overlapping of notes. 
 
-**GLIDE**. The glide control produces slides to the pitch of the following played note, creating a “portamento” or “glissando” effect. Take care, it could produce out of scale notes.
+**GLIDE**. The glide control produces slides to the pitch of the following played note, creating a “portamento” or “glissando” effect. Take care, it could produce out-of-scale notes.
 
-**MIDI OUT CC 101**. This is an important midi signal used for gate control. Do not unintentionally unwire it, to prevent your template to fail. 
+**MIDI OUT CC 101**. This is an important midi signal used for gate control. Do not unintentionally unwire it, to prevent your template from failing. 
 
-**RACK PRESET MODIFICATIONS**. You can of course modify and add any blocks you wish to your Reaktor rack. For example, you could want to add a quantizer, a clock divider or some utility blocks. The only constraint is to keep the essential wiring on place of the original preset. 
+**RACK PRESET MODIFICATIONS**. You can of course modify and add any blocks you wish to your Reaktor rack. For example, you could add a quantizer, a clock divider or some utility blocks. The only constraint is to keep the essential wiring in place of the original preset. 
 
 
 
