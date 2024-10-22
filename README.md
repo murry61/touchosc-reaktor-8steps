@@ -9,7 +9,7 @@ The collection starts with version 1, which consists of one basic 8 steps midi s
  
 <div align="center"> 
 
-![](images/img1.gif)
+![](images/img1.jpg)
 
 </div>
 
