@@ -9,13 +9,6 @@ The role of the TouchOSC template is to work as a tactile midi controller, where
 
 The development roadmap consist of  3 versions that gradually will extend the core funcionality and add more features.. The collection starts with version 1, which consists of one basic 8 steps midi sequencer, hosted in Ableton Live. 
  
-<div align="center"> 
-
-![](images/img1.jpg)
-
-</div>
-
-
 ---
 
 ### Releases
@@ -32,6 +25,12 @@ The development roadmap consist of  3 versions that gradually will extend the co
 - 6 direction modes
 - Clock: Ableton link
 - MIDI mapping to Ableton device 	
+
+<div align="center"> 
+
+![](images/img1.jpg)
+
+</div>
  
 ---
 
