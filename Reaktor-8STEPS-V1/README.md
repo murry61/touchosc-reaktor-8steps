@@ -4,7 +4,7 @@
 
 This is a first version of a TouchOSC template for a Reaktor 8 STEPS Sequencer with basic functionality, easy setup and easy to use operation. It materializes a small "physical" sequencer for your musical production workflow to play your Ableton virtual instruments or even an external modular gear using Ableton CV tools. The template follows and light the sequence steps on sync, providing an inspiring visual and interactive experience.
 
----
+
 
 ## Contents
 - [Specifications](SPECS.md)
