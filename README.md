@@ -3,7 +3,7 @@
 ### Description
 This repository contains a collection of Reaktor 8STEPS Sequencer TouchOSC templates. The main purpose is to improve your workflow, enjoy and inspire your productions.  
 
-The TouchOSC template is a midi controller for a Reaktor 8STEPS virtual sequencer. The template sends the transport signals (play, stop, bpm), setup and play the sequencer values (pitch, gate, velocity, gate rate, gate lenght, steps, direction, offset, transpose, reset). The "sequencer engine" then responds accordingly sending the midi sequence to the instruments, and sending back the messages to display the position steps for a visual interactive experience. 
+This TouchOSC template is a midi controller for a Reaktor 8STEPS virtual sequencer. The template sends the transport signals (play, stop, bpm), setup and play the sequencer values (pitch, gate, velocity, gate rate, gate lenght, steps, direction, offset, transpose, reset). The "sequencer engine" then responds accordingly sending the midi sequence to the instruments, and sending back the messages to display the position steps for a visual interactive experience. 
 
 ### Releases
 | Version | Release | Description   |
@@ -29,10 +29,10 @@ The TouchOSC template is a midi controller for a Reaktor 8STEPS virtual sequence
 </div>
 
 ### Next Versions
-Next versions will gradually extend the core funcionality and add more features.
+Next versions will gradually extend the core funcionality and add more functions.
 
 #### Version 2
-- 2 operation modes: a) Hosted in DAW, b)Standalone
+- 2 operation modes: a) Hosted in DAW, b) Standalone
 - 1 track, 8 STEPS, 1 MIDI channel
 - Position control enhancements
 - OSC mapping control of Reaktor rack 	
