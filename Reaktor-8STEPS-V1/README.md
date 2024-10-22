@@ -24,7 +24,7 @@ This is a first version of a TouchOSC template for a Reaktor 8 STEPS Sequencer w
 </div>
 
 
-### Requirements
+## Requirements
 -   TouchOSC and TouchOSC Bridge
 -   An iOS or Android Tablet
 -   Ableton Live Version 11 or 12
@@ -34,14 +34,14 @@ This is a first version of a TouchOSC template for a Reaktor 8 STEPS Sequencer w
 -   An external instrument using  Ableton CV tools (optional)
 
 
-### Connections
+## Connections
 The template is designed to work with Reaktor 6 ***hosted*** inside Ableton Live. You can use it to play a sequence either to a virtual instrument (VST plugin) or to an external instrument (MIDI or CV Tools). An important consideration for the design was the use of Ableton Link to keep the clock synchronization of the sequencer steps with the TouchOSC controller. Ableton Live provides midi feedback to the TouchOSC template using a [device control mapping](images/img4.Ableton_Reaktor_Device_Controller.jpg). This allows bidirectionality and automatic update of each control when you change, either in the TouchOSC template or in the Reaktor plugin. The Ableton Live template has all the [midi mappings](images/img9.Ableton-MIDI-map.jpg) already configured. Ableton Live send and receives MIDI signals through [TouchOSC Bridge](images/img5.TouchOSC_Bridge_config.jpg) configured with the Track, Sync and the Remote-control options.
 
 ![](images/img3.Ableton_TouchOSC_setup.jpg)
 
 
 
-### Features
+## Features
 The template has all the functions of the BLOCKS REAKTOR 8STEPS sequencer, an accurate reproduction of the original virtual instrument. The template scripts contain carefully crafted algorithms to match the sequencer steps progression with the gate and start/stop midi signals.  The complete wiring of the Reaktor rack preset is as follows: 
 
 ![](images/img6.Reaktor-8-STEPS-rack.jpg)
@@ -58,7 +58,7 @@ Just two [OSC mappings](images/img7.Reaktor_OSC_map.jpg) are used in Reaktor, wh
 
 
 
-### Instructions
+## Instructions
 1. Load the TouchOSC template in your Tablet.
 2. Check you have enabled and working the MIDI, OSC, and Bridge connections.
 3. Configure in your tablet the OSC and Bridge connections with the host IP of your computer running TouchOSC Bridge. 
@@ -74,7 +74,7 @@ Just two [OSC mappings](images/img7.Reaktor_OSC_map.jpg) are used in Reaktor, wh
 
 
 
-### Notes
+## Notes
 
 <div align="center">  
   <img src="images/img2.Reaktor-8STEPS_layout.png" with=500 height=500>
@@ -98,7 +98,7 @@ Just two [OSC mappings](images/img7.Reaktor_OSC_map.jpg) are used in Reaktor, wh
 
 
 
-### Download files
+## Download files
 The following files are included in the repository to quickly setup and run the template.  
 | File | Description   |
 | ------------ | ------------ |
@@ -108,13 +108,13 @@ The following files are included in the repository to quickly setup and run the 
 
 
 
-### License
+## License
 ![GitHub License](https://img.shields.io/github/license/murry61/touchosc-reaktor-8steps)
 All assets and code are under the MIT LICENSE in the public domain unless specified otherwise.
 
 ---
 
-### Support the Author
+## Support the Author
 <p> 
 I'm passionate about creating code that brings joy, inspiration, and creativity into people's lives. If you've enjoyed what I share and want to support my work, your contribution will help me to continue building. Every little bit fuels my creativity.
 </p>
