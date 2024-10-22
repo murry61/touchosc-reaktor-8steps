@@ -29,7 +29,7 @@ This TouchOSC template is a midi controller for a Reaktor 8STEPS virtual sequenc
 </div>
 
 ### Next Versions
-Next versions will gradually extend the core funcionality and add more functions.
+Next versions will gradually extend the core funcionality and add more features.
 
 #### Version 2
 - 2 operation modes: a) Hosted in DAW, b) Standalone
