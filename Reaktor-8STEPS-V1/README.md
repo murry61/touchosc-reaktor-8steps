@@ -15,13 +15,14 @@ This is a first version of a TouchOSC template for a Reaktor 8 STEPS Sequencer w
 - [Download files](#Download-files)
 - [License](#license)
 - [Support the Author](#support-the-author)
----
+
 
 <div align="center"> 
 
 ![](images/img0.gif)
 
 </div>
+
 
 ### Requirements
 -   TouchOSC and TouchOSC Bridge
@@ -31,14 +32,14 @@ This is a first version of a TouchOSC template for a Reaktor 8 STEPS Sequencer w
 -   A MIDI controller for external pitch
 -   A virtual instrument in your DAW
 -   An external instrument using  Ableton CV tools (optional)
----
+
 
 ### Connections
 The template is designed to work with Reaktor 6 ***hosted*** inside Ableton Live. You can use it to play a sequence either to a virtual instrument (VST plugin) or to an external instrument (MIDI or CV Tools). An important consideration for the design was the use of Ableton Link to keep the clock synchronization of the sequencer steps with the TouchOSC controller. Ableton Live provides midi feedback to the TouchOSC template using a [device control mapping](images/img4.Ableton_Reaktor_Device_Controller.jpg). This allows bidirectionality and automatic update of each control when you change, either in the TouchOSC template or in the Reaktor plugin. The Ableton Live template has all the [midi mappings](images/img9.Ableton-MIDI-map.jpg) already configured. Ableton Live send and receives MIDI signals through [TouchOSC Bridge](images/img5.TouchOSC_Bridge_config.jpg) configured with the Track, Sync and the Remote-control options.
 
 ![](images/img3.Ableton_TouchOSC_setup.jpg)
 
----
+
 
 ### Features
 The template has all the functions of the BLOCKS REAKTOR 8STEPS sequencer, an accurate reproduction of the original virtual instrument. The template scripts contain carefully crafted algorithms to match the sequencer steps progression with the gate and start/stop midi signals.  The complete wiring of the Reaktor rack preset is as follows: 
@@ -54,7 +55,8 @@ The template also includes additional controls to enhance the functionality:
 - Clock Shuffle button – To add shuffle or swing.
 
 Just two [OSC mappings](images/img7.Reaktor_OSC_map.jpg) are used in Reaktor, which are already configured in the Reaktor rack preset. The controller makes use of [arrows buttons](images/img8.Direction-Steps-Offset.png) to control the direction, steps and offset instead of the radial control directly. The reason was to prevent out-of-sync jumps when touching the radial controls that creates a bouncing effect on x values.
----
+
+
 
 ### Instructions
 1. Load the TouchOSC template in your Tablet.
@@ -69,7 +71,8 @@ Just two [OSC mappings](images/img7.Reaktor_OSC_map.jpg) are used in Reaktor, wh
 10. Select a virtual instrument of your choice in another Ableton track (or an external instrument) and select Reaktor 6 as the MIDI input to receive the sequencer output. 
 11. Configure your sequence as you wish: direction, steps, offset, velocity, glide, gate, gate rate, bpm and so on
 12. You are ready to play. Enjoy!
----
+
+
 
 ### Notes
 
@@ -92,7 +95,8 @@ Just two [OSC mappings](images/img7.Reaktor_OSC_map.jpg) are used in Reaktor, wh
 **MIDI OUT CC 101**. This is an important midi signal used for gate control. Do not unintentionally unwire it, to prevent your template to fail. 
 
 **RACK PRESET MODIFICATIONS**. You can of course modify and add any blocks you wish to your Reaktor rack. For example, you could want to add a quantizer, a clock divider or some utility blocks. The only constraint is to keep the essential wiring on place of the original preset. 
----
+
+
 
 ### Download files
 The following files are included in the repository to quickly setup and run the template.  
@@ -102,11 +106,12 @@ The following files are included in the repository to quickly setup and run the 
 | [Reaktor-8 STEPS-1.11.als](files/Reaktor-8-STEPS-1.11.als)   | The Ableton Live Template   |
 | [8-STEPS-1.11.nksr](files/8-STEPS-1.11_.nksr)  | The Reaktor 8Steps rack file with modular blocks and wiring |
 
----
+
 
 ### License
 ![GitHub License](https://img.shields.io/github/license/murry61/touchosc-reaktor-8steps)
 All assets and code are under the MIT LICENSE in the public domain unless specified otherwise.
+
 ---
 
 ### Support the Author
