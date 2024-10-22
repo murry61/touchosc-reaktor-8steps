@@ -1,11 +1,9 @@
 ## REAKTOR 8STEPS Sequencer TouchOSC templates
 
 ### Description
-This repository contains a collection of Reaktor 8STEPS Sequencer TouchOSC templates, to use for your music production setup. The purpose is to improve your workflow and inspire your productions.  
+This repository contains a collection of Reaktor 8STEPS Sequencer TouchOSC templates. The main purpose is to improve your workflow, enjoy and inspire your productions.  
 
-This tool uses your tablet like a "physical" tactile sequencer instrument to play virtual instruments hosted in your DAW, or external synths and modular gear. 
-
-The role of the TouchOSC template is a midi controller, whereas the role of the Reaktor 8STEPS intrument is as a virtual sequencer "engine". The template sends the transport signals (play, stop, bpm), configure and play the sequencer values (pitch, gate, velocity, gate rate, gate lenght, steps, direction, offset, transpose, reset). The "sequencer engine" then responds accordingly sending the midi sequence to the instruments, and returning to the template the messages to display the position steps to provide a visual interactive experience. 
+The TouchOSC template is a midi controller for a Reaktor 8STEPS virtual sequencer. The template sends the transport signals (play, stop, bpm), setup and play the sequencer values (pitch, gate, velocity, gate rate, gate lenght, steps, direction, offset, transpose, reset). The "sequencer engine" then responds accordingly sending the midi sequence to the instruments, and sending back the messages to display the position steps for a visual interactive experience. 
 
 ### Releases
 | Version | Release | Description   |
@@ -17,6 +15,7 @@ The role of the TouchOSC template is a midi controller, whereas the role of the 
 
 ### [Version 1](/Reaktor-8STEPS-V1/) 
 ![Static Badge](https://img.shields.io/badge/released-green)
+- Basic and easy to use functionality
 - Operation mode: Hosted in Ableton DAW
 - 1 track, 8 STEPS, 1 MIDI channel
 - 6 sequencer direction modes
@@ -36,14 +35,13 @@ Next versions will gradually extend the core funcionality and add more features.
 - 2 operation modes: a) Hosted in DAW, b)Standalone
 - 1 track, 8 STEPS, 1 MIDI channel
 - Position control enhancements
-- Direction, Step, Offset radial controls enhancements
-- OSC mapping control to Reaktor rack 	
-- Keyboard template for Pitch tracking (transpose)
+- OSC mapping control of Reaktor rack 	
+- Keyboard module for Pitch tracking (transpose)
 - 2 clock operation modes: Internal, Ableton link
 
 #### Version 3
-- 1 Operation mode: Standalone, 3 MIDI Channels
-- 3 Tracks , 8 STEPS per track 
+- Operation mode: Standalone
+- 3 Tracks , 8 STEPS per track, 3 MIDI Channels 
 - Pause, Mute, link controls 
 - 3 clock operation modes: Internal, Ableton link, External Sync clock
 - MIDI Scales
