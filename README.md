@@ -19,6 +19,8 @@ The development roadmap consist of  3 versions that gradually will extend the co
 | ![Static Badge](https://img.shields.io/badge/2-red) | ![Static Badge](https://img.shields.io/badge/Development-red) |  Reaktor 8Steps Sequencer, 1 track, 8 steps, midi out, Standalone/DAW-Hosted operation, enhancements |
 | ![Static Badge](https://img.shields.io/badge/3-red) | ![Static Badge](https://img.shields.io/badge/Development-red) |  Reaktor 8Steps Sequencer, 3 track, 8steps, midi / CV out, Standalone operation, 4 snapshots |
 
+---
+
 ### [Version 1](/Reaktor-8STEPS-V1/) 
 ![Static Badge](https://img.shields.io/badge/released-green)
 - 1 operation mode: Hosted in Ableton DAW
