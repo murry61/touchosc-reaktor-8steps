@@ -1,31 +1,25 @@
-## REAKTOR 8 STEPS SEQUENCER - TouchOSC templates
+## REAKTOR 8STEPS Sequencer TouchOSC templates
 
 ### Description
-This repository contains a collection of Reaktor 8STEPS Sequencer TouchOSC templates, which can be used as an external sequencer surface controller running on a tablet for your music production setup. The purpose is to improve your workflow with a hands-on tactile experience, and inspire your productions.  
+This repository contains a collection of Reaktor 8STEPS Sequencer TouchOSC templates, to use for your music production setup. The purpose is to improve your workflow and inspire your productions.  
 
-This tool is directed to use your tablet as a kind of "physical" tactile instrument that behaves as a basic sequencer to send MIDI sequences to other virtual instruments hosted in your DAW, and even possible to external synths and modular gear. 
+This tool uses your tablet like a "physical" tactile sequencer instrument to play virtual instruments hosted in your DAW, or external synths and modular gear. 
 
-The role of the TouchOSC template is to work as a tactile midi controller, whereas the role of the Reaktor 8STEPS intrument is to work as a virtual sequencer "engine". The template sends the transport signals (play, stop, bpm), configure and play the sequencer values (pitch, gate, velocity, gate rate, gate lenght, steps, direction, offset, transpose, reset). The "sequencer engine" responds accordingly sending the midi sequence to the instruments, and sending as well return signals to the template to display accordingly the position steps, providing a visual interactive experience. 
-
-The development roadmap consist of  3 versions that gradually will extend the core funcionality and add more features.. The collection starts with version 1, which consists of one basic 8 steps midi sequencer, hosted in Ableton Live. 
- 
----
+The role of the TouchOSC template is a midi controller, whereas the role of the Reaktor 8STEPS intrument is as a virtual sequencer "engine". The template sends the transport signals (play, stop, bpm), configure and play the sequencer values (pitch, gate, velocity, gate rate, gate lenght, steps, direction, offset, transpose, reset). The "sequencer engine" then responds accordingly sending the midi sequence to the instruments, and returning to the template the messages to display the position steps to provide a visual interactive experience. 
 
 ### Releases
-
 | Version | Release | Description   |
 | ------------ | ------------ | ------------ |
 | ![Static Badge](https://img.shields.io/badge/1-green) | :link: [1.11.01](Reaktor-8STEPS-V1/) | Reaktor 8Steps Sequencer, 1 track, 8 steps, midi out, Ableton DAW-Hosted operation|
 | ![Static Badge](https://img.shields.io/badge/2-red) | ![Static Badge](https://img.shields.io/badge/Development-red) |  Reaktor 8Steps Sequencer, 1 track, 8 steps, midi out, Standalone/DAW-Hosted operation, enhancements |
 | ![Static Badge](https://img.shields.io/badge/3-red) | ![Static Badge](https://img.shields.io/badge/Development-red) |  Reaktor 8Steps Sequencer, 3 track, 8steps, midi / CV out, Standalone operation, 4 snapshots |
 
----
 
 ### [Version 1](/Reaktor-8STEPS-V1/) 
 ![Static Badge](https://img.shields.io/badge/released-green)
-- 1 operation mode: Hosted in Ableton DAW
+- Operation mode: Hosted in Ableton DAW
 - 1 track, 8 STEPS, 1 MIDI channel
-- 6 direction modes
+- 6 sequencer direction modes
 - Clock: Ableton link
 - MIDI mapping to Ableton device 	
 
@@ -34,10 +28,9 @@ The development roadmap consist of  3 versions that gradually will extend the co
 ![](images/img1.jpg)
 
 </div>
- 
----
 
 ### Next Versions
+Next versions will gradually extend the core funcionality and add more features.
 
 #### Version 2
 - 2 operation modes: a) Hosted in DAW, b)Standalone
@@ -57,8 +50,6 @@ The development roadmap consist of  3 versions that gradually will extend the co
 - MIDI and CV output
 - 4 Snapshots
 - 3 clock operation modes: Internal, Ableton link, External Sync clock
-
----
 
 ### Support the Author
 <p> 
