@@ -1,4 +1,4 @@
-## Reaktor 8STEPS Sequencer, 1 track, 8 steps, MIDI, Hosted
+## Reaktor 8STEPS Sequencer
 ### Version 1.2
 - Reaktor 8STEPS Sequencer, 1 track, 8 steps, MIDI, Hosted
 - Model:    SEQ-8S-1T8S-MH
