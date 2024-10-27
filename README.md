@@ -12,7 +12,7 @@ A basic and easy to use TouchOSC template to control a Reaktor 8STEPS Sequencer 
 
 <div align="center"> 
 
-<img src="images/img1.jpg" width="75%">
+<img src="images/img1.jpg" width="80%">
 
 </div>
 
@@ -56,7 +56,7 @@ A basic and easy to use TouchOSC template to control a Reaktor 8STEPS Sequencer 
 
 <div align="center"> 
 
-<img src="images/img3.jpg" width="75%">
+<img src="images/img3.gif" >
 
 </div>
 
@@ -91,7 +91,7 @@ A basic and easy to use TouchOSC template to control a Reaktor 8STEPS Sequencer 
 
 <div align="center"> 
 
-<img src="images/img2.jpg" width="75%">
+<img src="images/img2.jpg" >
 
 </div>
 
