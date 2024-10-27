@@ -7,6 +7,14 @@
 - Author:   Ricardo Acuna
 - Date:     2024-oct-27
 
+
+<div align="center"> 
+
+<img src="images/img3.gif" >
+
+</div>
+
+
 ## Description
 A basic and easy to use TouchOSC template to control a Reaktor 8STEPS Sequencer virtual instrument. It can be used in a simple setup to improvise in your workflow, enjoy and inspire your productions. The TouchOSC template sends the transport signals (play, stop, bpm) and sequencer values (pitch, gate, velocity, gate rate, gate length, steps, direction, offset, transpose, reset). The Reaktor 8STEPS sequencer sends the midi sequence to other hosted instruments in your DAW.  A return track in your DAW sends back the midi messages to visualize the position steps for an interactive experience. It materializes a small and basic "physical" sequencer for your musical production workflow to play any Ableton virtual instruments or even an external modular gear by using it with Ableton CV tools.
 
@@ -53,12 +61,6 @@ A basic and easy to use TouchOSC template to control a Reaktor 8STEPS Sequencer 
 - Pitch track: transpose using an external midi controler
 - Clock: External, Ableton Link 
 - MIDI CC out: CC101 (gate), CC102 (position), CC103 (play)
-
-<div align="center"> 
-
-<img src="images/img3.gif" >
-
-</div>
 
 ## Connections
 - Reaktor Mapping: OSC
