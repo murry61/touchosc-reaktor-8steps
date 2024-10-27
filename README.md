@@ -1,6 +1,6 @@
-## Reaktor 8STEPS Sequencer
+## Reaktor 8 STEPS Sequencer
 ### Version 1.2
-- Reaktor 8STEPS Sequencer, 1 track, 8 steps, MIDI, Hosted
+- Reaktor 8 STEPS Sequencer, 1 track, 8 steps, MIDI, Hosted
 - Model:    SEQ-8S-1T8S-MH
 - Version:  1.2
 - Release:  1.2.0
@@ -44,7 +44,7 @@ A basic and easy to use TouchOSC template to control a Reaktor 8STEPS Sequencer 
 - DAW Host:  Ableton Live 11/12
 
 ## Sequencer
-- Modular Block: Reaktor Bento Box 8STEPS
+- Modular Block: Reaktor Bento Box 8 STEPS
 - Tracks: 1 track 
 - Steps: 8 steps, melodic sequencer
 - MIDI out: Pitch, gate (with velocity level)
