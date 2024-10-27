@@ -1,55 +1,17 @@
 ## REAKTOR 8STEPS Sequencer TouchOSC templates
 
 ## Description
-This repository contains a collection of Reaktor 8STEPS Sequencer TouchOSC templates. The main purpose is to improve your workflow, enjoy and inspire your productions.  
+This repository contains a collection of Reaktor 8STEPS Sequencer TouchOSC templates. The main purpose is to improve your workflow, enjoy and inspire your productions.  The TouchOSC template sends the transport signals (play, stop, bpm) and sequencer values (pitch, gate, velocity, gate rate, gate length, steps, direction, offset, transpose, reset). The Reaktor 8STEPS sequencer sends the midi sequence to other hosted instruments in your DAW.  A return track in your DAW sends back the midi messages to visualize the position steps for an interactive experience. 
 
-This TouchOSC template is a midi controller for a Reaktor 8STEPS virtual sequencer. The template sends the transport signals (play, stop, bpm), setup and play the sequencer values (pitch, gate, velocity, gate rate, gate length, steps, direction, offset, transpose, reset). The "sequencer engine" then responds accordingly sending the midi sequence to the instruments and sending back the messages to display the position steps for a visual interactive experience. 
-
-## Releases
-| Version | Release | Description   |
-| ------------ | ------------ | ------------ |
-| ![Static Badge](https://img.shields.io/badge/1-green) | :link: [1.11.01](Reaktor-8STEPS-V1/) | Reaktor 8Steps Sequencer, 1 track, 8 steps, midi out, Ableton DAW-Hosted operation|
-| ![Static Badge](https://img.shields.io/badge/2-red) | ![Static Badge](https://img.shields.io/badge/Development-red) |  Reaktor 8Steps Sequencer, 1 track, 8 steps, midi out, Standalone/DAW-Hosted operation, enhancements |
-| ![Static Badge](https://img.shields.io/badge/3-red) | ![Static Badge](https://img.shields.io/badge/Development-red) |  Reaktor 8Steps Sequencer, 3 track, 8steps, midi / CV out, Standalone operation, 4 snapshots |
-
-
-## [Version 1](/Reaktor-8STEPS-V1/) 
-![Static Badge](https://img.shields.io/badge/released-green)
-- Basic and easy to use functionality
-- Operation mode: Hosted in Ableton DAW
-- 1 track, 8 STEPS, 1 MIDI channel
-- 6 sequencer direction modes
-- Clock: Ableton link
-- MIDI mapping to Ableton device 	
+<br>
 
 <div align="center"> 
 
-![](images/img1.jpg)
+<img src="images/img1.jpg" width="75%">
 
 </div>
 
-## Next Versions
-Next versions will gradually extend the core functionality and add more features.
-
-#### Version 2
-- 2 operation modes: a) Hosted in DAW, b) Standalone
-- 1 track, 8 STEPS, 1 MIDI channel
-- Position control enhancements
-- OSC mapping control of Reaktor rack 	
-- Keyboard module for Pitch tracking (transpose)
-- 2 clock operation modes: Internal, Ableton link
-
-#### Version 3
-- Operation mode: Standalone
-- 3 Tracks, 8 STEPS per track, 3 MIDI Channels 
-- Pause, Mute, link controls 
-- 3 clock operation modes: Internal, Ableton link, External Sync clock
-- MIDI Scales
-- MIDI and CV output
-- 4 Snapshots
-- 3 clock operation modes: Internal, Ableton link, External Sync clock
-
----
+<br>
 
 ## Support the Author
 <p> 
