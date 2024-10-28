@@ -93,7 +93,8 @@ A basic and easy to use TouchOSC template to control a Reaktor 8 STEPS Sequencer
 </div>
 
 ## License
-![GitHub License](https://img.shields.io/github/license/murry61/touchosc-reaktor-8steps)
+
+<a href= https://github.com/murry61/touchosc-reaktor-8steps/blob/v1.2/LICENSE > <img alt="GitHub License" src="https://img.shields.io/github/license/murry61/touchosc-reaktor-8steps"></a>
 
 All assets and code are under the MIT LICENSE in the public domain unless specified otherwise.
 
