@@ -57,31 +57,31 @@ A basic and easy to use TouchOSC template to control a Reaktor 8 STEPS Sequencer
 ## Connections
 - Reaktor Mapping: OSC
 - Ableton Host Mapping:  MIDI
-- Connections: MIDI Bridge
-- Connections: OSC Host, Ports: send 10000, receive 10000
+- Connections - MIDI: Bridge
+- Connections - OSC: Host, Ports: send 10000, receive 10000
 - Bridge: IP of your PC host
 - Setup: 
-	- Bridge: setup IP of your PC host
-	- OSC: setup IP of your PC host
-	- Ableton Live settings: TouchOSC Bridge Input Port (Track, Remote), Output Port (Track, Sync, Remote)
+	- Bridge: IP of your PC host
+	- OSC: IP of your PC host
+	- Ableton Live MIDI settings: TouchOSC Bridge Input Port (Track, Remote), Output Port (Track, Sync, Remote)
 
 ## Requirements
 - Control surface software: TouchOSC
 - Tablet: An iOS or Android Tablet
-- DAW: Ableton Live Version 11 or 12
-- Plugin: Native Instruments Reaktor 6 plugin with 
+- DAW: Ableton Live Version 11/12
+- Plugin: Native Instruments - Reaktor 6
 - Reaktor Modular Blocks: Blocks Base
-- MIDI controller: Optional for external pitch transpose
 - Target virtual instrument: Any virtual instrument in your DAW
 - Target external instrument:  Any external midi instrument using midi out or Ableton CV tools (optional)
+- Optional external MIDI controller: Pitch transpose
 
 ## Files
 - TouchOSC Template: SEQ-8S-1T8S-MH-1.2.tosc
 - Reaktor Rack:      SEQ-8S-1T8S-MH-1.2.nksr
 - Ableton Live set:  SEQ-8S-1T8S-MH-1.2.als
-	- Track 1 - Reaktor sequencer: contains the Reaktor 8STEPS rack (preset), MIDI input receives transpose, MIDI out sends to track 2 and track 3.
-	- Track 2 - TouchOSC Bridge MIDI return: receives CC´s from track 1 and sends back to the template, TouchOSC Bridge MIDI out. 
-	- Track 3 - Basic Square: A sample Ableton stock virtual instrument, MIDI input from track 1. 
+	- Track 1 - Reaktor sequencer: Reaktor 8 STEPS rack (preset), MIDI in receives transpose, MIDI out sends to track 2 and track 3.
+	- Track 2 - TouchOSC Bridge MIDI return: MIDI in receives CC´s from track 1, MIDI out sends CC´s to TouchOSC Bridge 
+	- Track 3 - Basic Square: A sample Ableton stock virtual instrument to start playing, MIDI in from track 1. 
 
 <div align="center"> 
 <img src="images/img2.jpg" >
