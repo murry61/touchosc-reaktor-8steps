@@ -3,8 +3,7 @@
 - Model: SEQ-8S-1T8S-MH
 - Version: 1.2
 
-<img alt="GitHub Release" src="https://img.shields.io/github/v/release/murry61/touchosc-reaktor-8steps?link=https%3A%2F%2Fgithub.com%2Fmurry61%2Ftouchosc-reaktor-8steps%2Freleases%2Ftag%2Fv1.11.01">
-
+<a href= https://github.com/murry61/touchosc-reaktor-8steps/releases/tag/v1.11.01 ><img alt="GitHub Release" src="https://img.shields.io/github/v/release/murry61/touchosc-reaktor-8steps"></a>
 
 <div align="center"> 
 <img src="images/img3.gif" >
