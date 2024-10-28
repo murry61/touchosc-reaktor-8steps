@@ -7,12 +7,15 @@
 <img src="images/img3.gif" >
 </div>
 
-## Description
+---
+
 A basic and easy to use TouchOSC template to control a Reaktor 8 STEPS Sequencer virtual instrument. It can be used in a simple setup to improvise in your workflow, enjoy and inspire your productions. The template sends the transport and playing values. The sequencer in turn sends the midi sequence to other hosted instruments in your DAW.  A return track sends back midi CC messages to visualize the position steps for an interactive experience. It "materializes" a small and basic "physical" sequencer for your musical production workflow to play virtual instruments or even an external modular gear by using it with Ableton CV tools.
 
 <div align="center"> 
 <img src="images/img1.jpg" >
 </div>
+
+---
 
 ## Contents
 - [Instrument](#instrument)
@@ -90,6 +93,8 @@ A basic and easy to use TouchOSC template to control a Reaktor 8 STEPS Sequencer
 ## License
 ![GitHub License](https://img.shields.io/github/license/murry61/touchosc-reaktor-8steps)
 All assets and code are under the MIT LICENSE in the public domain unless specified otherwise.
+
+---
 
 ## Support the Author
 <p> 
