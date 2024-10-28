@@ -5,9 +5,7 @@
 - Version:  1.2
 
 <div align="center"> 
-
 <img src="images/img3.gif" >
-
 </div>
 
 ## Description
@@ -16,8 +14,6 @@ A basic and easy to use TouchOSC template to control a Reaktor 8 STEPS Sequencer
 <div align="center"> 
 <img src="images/img1.jpg" >
 </div>
-
-<br>
 
 ## Contents
 - [Instrument](#instrument)
@@ -55,6 +51,10 @@ A basic and easy to use TouchOSC template to control a Reaktor 8 STEPS Sequencer
 - Clock: External, Ableton Link 
 - MIDI CC out: CC101 (gate), CC102 (position), CC103 (play)
 
+<div align="center"> 
+<img src="images/img4.jpg" >
+</div>
+
 ## Connections
 - Reaktor Mapping: OSC
 - Ableton Host Mapping:  MIDI
@@ -85,17 +85,12 @@ A basic and easy to use TouchOSC template to control a Reaktor 8 STEPS Sequencer
 	- Track 3 - Basic Square: A sample Ableton stock virtual instrument, MIDI input from track 1. 
 
 <div align="center"> 
-
 <img src="images/img2.jpg" >
-
 </div>
 
 ## License
 ![GitHub License](https://img.shields.io/github/license/murry61/touchosc-reaktor-8steps)
 All assets and code are under the MIT LICENSE in the public domain unless specified otherwise.
-
-<br>
-
 
 ## Support the Author
 <p> 
