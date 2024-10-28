@@ -3,10 +3,6 @@
 - Reaktor 8 STEPS Sequencer, 1 track, 8 steps, MIDI, Hosted
 - Model:    SEQ-8S-1T8S-MH
 - Version:  1.2
-- Release:  1.2.0
-- Author:   Ricardo Acuna
-- Date:     2024-oct-27
-
 
 <div align="center"> 
 
@@ -14,14 +10,11 @@
 
 </div>
 
-
 ## Description
 A basic and easy to use TouchOSC template to control a Reaktor 8 STEPS Sequencer virtual instrument. It can be used in a simple setup to improvise in your workflow, enjoy and inspire your productions. The template sends the transport signals (play, stop, bpm) and sequencer values (pitch, gate, velocity, gate rate, gate length, steps, direction, offset, transpose, reset). The sequencer sends the midi sequence to other hosted instruments in your DAW.  A return track in your DAW sends back the midi messages to visualize the position steps for an interactive experience. It materializes a small and basic "physical" sequencer for your musical production workflow to play any Ableton virtual instruments or even an external modular gear by using it with Ableton CV tools.
 
 <div align="center"> 
-
 <img src="images/img1.jpg" >
-
 </div>
 
 <br>
@@ -83,7 +76,7 @@ A basic and easy to use TouchOSC template to control a Reaktor 8 STEPS Sequencer
 - Target virtual instrument: Any virtual instrument in your DAW
 - Target external instrument:  Any external midi instrument using midi out or Ableton CV tools (optional)
 
-### Files
+## Files
 - TouchOSC Template: SEQ-8S-1T8S-MH-1.2.tosc
 - Reaktor Rack:      SEQ-8S-1T8S-MH-1.2.nksr
 - Ableton Live set:  SEQ-8S-1T8S-MH-1.2.als
@@ -100,6 +93,8 @@ A basic and easy to use TouchOSC template to control a Reaktor 8 STEPS Sequencer
 ## License
 ![GitHub License](https://img.shields.io/github/license/murry61/touchosc-reaktor-8steps)
 All assets and code are under the MIT LICENSE in the public domain unless specified otherwise.
+
+<br>
 
 
 ## Support the Author
