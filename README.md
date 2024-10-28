@@ -1,14 +1,14 @@
 ## Reaktor 8 STEPS Sequencer
-- Reaktor 8 STEPS Sequencer, 1 track, 8 steps, MIDI, Hosted
-- Model:    SEQ-8S-1T8S-MH
-- Version:  1.2
+- Reaktor 8 STEPS Sequencer, 1 track, 8 steps, MIDI out, Hosted in DAW
+- Model: SEQ-8S-1T8S-MH
+- Version: 1.2
 
 <div align="center"> 
 <img src="images/img3.gif" >
 </div>
 
 ## Description
-A basic and easy to use TouchOSC template to control a Reaktor 8 STEPS Sequencer virtual instrument. It can be used in a simple setup to improvise in your workflow, enjoy and inspire your productions. The template sends the transport and sequencer values. The sequencer in turn sends the midi sequence to other hosted instruments in your DAW.  A return track sends back CC messages to visualize the position steps for an interactive experience. It "materializes" a small and basic "physical" sequencer for your musical production workflow to play virtual instruments or even an external modular gear by using it with Ableton CV tools.
+A basic and easy to use TouchOSC template to control a Reaktor 8 STEPS Sequencer virtual instrument. It can be used in a simple setup to improvise in your workflow, enjoy and inspire your productions. The template sends the transport and playing values. The sequencer in turn sends the midi sequence to other hosted instruments in your DAW.  A return track sends back CC messages to visualize the position steps for an interactive experience. It "materializes" a small and basic "physical" sequencer for your musical production workflow to play virtual instruments or even an external modular gear by using it with Ableton CV tools.
 
 <div align="center"> 
 <img src="images/img1.jpg" >
