@@ -80,6 +80,7 @@ A basic and easy to use TouchOSC template to control a Reaktor 8 STEPS Sequencer
 ## Files
 - TouchOSC Template: SEQ-8S-1T8S-MH-1.2.tosc
 - Reaktor Rack:      SEQ-8S-1T8S-MH-1.2.nksr
+	- Important note: The rack uses a "hidden twin" sequencer to track position and return CC102 to the template. Do not change.
 - Ableton Live set:  SEQ-8S-1T8S-MH-1.2.als
 	- Track 1 - Reaktor sequencer: Reaktor 8 STEPS rack (preset), MIDI in receives transpose, MIDI out sends to track 2 and track 3.
 	- Track 2 - TouchOSC Bridge MIDI return: MIDI in receives CC´s from track 1, MIDI out sends CC´s to TouchOSC Bridge 
