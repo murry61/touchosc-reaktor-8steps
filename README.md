@@ -1,53 +1,102 @@
-## REAKTOR 8STEPS Sequencer TouchOSC templates
+## Reaktor 8 STEPS Sequencer TouchOSC template
+- Instrument: Reaktor 8 STEPS Sequencer, 1 track, 8 steps, MIDI out, Hosted in DAW
+- Model: SEQ-8S-1T8S-MH
+- Version: 1.2
 
-## Description
-This repository contains a collection of Reaktor 8STEPS Sequencer TouchOSC templates. The main purpose is to improve your workflow, enjoy and inspire your productions.  
-
-This TouchOSC template is a midi controller for a Reaktor 8STEPS virtual sequencer. The template sends the transport signals (play, stop, bpm), setup and play the sequencer values (pitch, gate, velocity, gate rate, gate length, steps, direction, offset, transpose, reset). The "sequencer engine" then responds accordingly sending the midi sequence to the instruments and sending back the messages to display the position steps for a visual interactive experience. 
-
-## Releases
-| Version | Release | Description   |
-| ------------ | ------------ | ------------ |
-| ![Static Badge](https://img.shields.io/badge/1-green) | :link: [1.11.01](Reaktor-8STEPS-V1/) | Reaktor 8Steps Sequencer, 1 track, 8 steps, midi out, Ableton DAW-Hosted operation|
-| ![Static Badge](https://img.shields.io/badge/2-red) | ![Static Badge](https://img.shields.io/badge/Development-red) |  Reaktor 8Steps Sequencer, 1 track, 8 steps, midi out, Standalone/DAW-Hosted operation, enhancements |
-| ![Static Badge](https://img.shields.io/badge/3-red) | ![Static Badge](https://img.shields.io/badge/Development-red) |  Reaktor 8Steps Sequencer, 3 track, 8steps, midi / CV out, Standalone operation, 4 snapshots |
-
-
-## [Version 1](/Reaktor-8STEPS-V1/) 
-![Static Badge](https://img.shields.io/badge/released-green)
-- Basic and easy to use functionality
-- Operation mode: Hosted in Ableton DAW
-- 1 track, 8 STEPS, 1 MIDI channel
-- 6 sequencer direction modes
-- Clock: Ableton link
-- MIDI mapping to Ableton device 	
+<a href= https://github.com/murry61/touchosc-reaktor-8steps/releases/tag/v1.2 ><img alt="GitHub Release" src="https://img.shields.io/github/v/release/murry61/touchosc-reaktor-8steps"></a>
 
 <div align="center"> 
-
-![](images/img1.jpg)
-
+<img src="images/img3.gif" >
 </div>
 
-## Next Versions
-Next versions will gradually extend the core functionality and add more features.
+## Description
+A basic and easy to use TouchOSC template to control a Reaktor 8 STEPS Sequencer virtual instrument. It can be used in a simple setup to jam, improvise and inspire your productions. The template sends the transport and playing values. The sequencer in turn sends the midi sequence to other hosted instruments in your DAW.  A return track sends back midi CC messages to visualize the position steps for an interactive experience. It "materializes" a small and basic "physical" sequencer for your musical production workflow to play virtual instruments or even an external modular gear by using it with Ableton CV tools.
 
-#### Version 2
-- 2 operation modes: a) Hosted in DAW, b) Standalone
-- 1 track, 8 STEPS, 1 MIDI channel
-- Position control enhancements
-- OSC mapping control of Reaktor rack 	
-- Keyboard module for Pitch tracking (transpose)
-- 2 clock operation modes: Internal, Ableton link
+<div align="center"> 
+<img src="images/img1.jpg" >
+</div>
 
-#### Version 3
-- Operation mode: Standalone
-- 3 Tracks, 8 STEPS per track, 3 MIDI Channels 
-- Pause, Mute, link controls 
-- 3 clock operation modes: Internal, Ableton link, External Sync clock
-- MIDI Scales
-- MIDI and CV output
-- 4 Snapshots
-- 3 clock operation modes: Internal, Ableton link, External Sync clock
+---
+
+## Contents
+- [Instrument](#instrument)
+- [Sequencer](#sequencer)
+- [Connections](#connections)
+- [Requirements](#requirements)
+- [Files](#files)
+- [License](#license)
+- [Support the Author](#support-the-author)
+
+
+## Instrument
+- Plugin: Native Instruments Reaktor 6 
+- Library: Blocks Base
+- Main Module: SEQ-Bento 8 Steps Sequencer
+- Operation Mode:  **hosted** in Ableton Live
+- DAW Host:  Ableton Live 11/12
+
+## Sequencer
+- Modular Block: Reaktor Bento Box 8 STEPS
+- Tracks: 1 track 
+- Steps: 8 steps, melodic sequencer
+- MIDI out: Pitch, gate (with velocity level)
+- Modulation: Velocity, Gate time, Glide
+- 6 Sequencer directions: 
+	- fwd > 
+	- rev < 
+	- fwd-rev (Pendulum) <>
+	- ping-pong <<>> 
+	- brownian (semi-random) ?
+	- random (full-random) ?!
+- Offset: initial position of sequence
+- Reset: reset to initial position 
+- Pitch track: transpose using an external midi controler
+- Clock: External, Ableton Link 
+- MIDI CC out: CC101 (gate), CC102 (position), CC103 (play)
+
+<div align="center"> 
+<img src="images/img4.jpg" >
+</div>
+
+## Connections
+- Reaktor Mapping: OSC
+- Ableton Host Mapping:  MIDI
+- Connections - MIDI: Bridge
+- Connections - OSC: Host, Ports: send 10000, receive 10000
+- Bridge: IP of your PC host
+- Setup: 
+	- Bridge: IP of your PC host
+	- OSC: IP of your PC host
+	- Ableton Live MIDI settings: TouchOSC Bridge Input Port (Track, Remote), Output Port (Track, Sync, Remote)
+
+## Requirements
+- Control surface software: TouchOSC
+- Tablet: An iOS or Android Tablet
+- DAW: Ableton Live Version 11/12
+- Plugin: Native Instruments - Reaktor 6
+- Reaktor Modular Blocks: Blocks Base
+- Target virtual instrument: Any virtual instrument in your DAW
+- Target external instrument:  Any external midi instrument using midi out or Ableton CV tools (optional)
+- Optional external MIDI controller: Pitch transpose
+
+## Files
+- TouchOSC Template: SEQ-8S-1T8S-MH-1.2.tosc
+- Reaktor Rack:      SEQ-8S-1T8S-MH-1.2.nksr
+	- Important note: The rack uses a "hidden twin" sequencer to track position and return CC102 to the template. Do not change.
+- Ableton Live set:  SEQ-8S-1T8S-MH-1.2.als
+	- Track 1 - Reaktor sequencer: Reaktor 8 STEPS rack (preset), MIDI in receives transpose, MIDI out sends to track 2 and track 3.
+	- Track 2 - TouchOSC Bridge MIDI return: MIDI in receives CC´s from track 1, MIDI out sends CC´s to TouchOSC Bridge 
+	- Track 3 - Basic Square: A sample Ableton stock virtual instrument to start playing, MIDI in from track 1. 
+
+<div align="center"> 
+<img src="images/img2.jpg" >
+</div>
+
+## License
+
+<a href= https://github.com/murry61/touchosc-reaktor-8steps/blob/main/LICENSE > <img alt="GitHub License" src="https://img.shields.io/github/license/murry61/touchosc-reaktor-8steps"></a>
+
+All assets and code are under the MIT LICENSE in the public domain unless specified otherwise.
 
 ---
 
@@ -59,4 +108,3 @@ I'm passionate about creating code that brings joy, inspiration, and creativity 
 **_Thank you for your kindness and support!_** 
 
 <a href="https://www.buymeacoffee.com/r1c4rd0" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
