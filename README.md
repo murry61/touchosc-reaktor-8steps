@@ -2,8 +2,8 @@
 - Instrument: Reaktor 8 STEPS Sequencer, 1 track, 8 steps, MIDI out, Hosted in DAW
 - Model: SEQ-8S-1T8S-MH
 - Version: 1.2
-<object data="https://img.shields.io/github/v/release/murry61/touchosc-reaktor-8steps" ></object>
 
+<img alt="GitHub Release" src="https://img.shields.io/github/v/release/murry61/touchosc-reaktor-8steps?link=https%3A%2F%2Fgithub.com%2Fmurry61%2Ftouchosc-reaktor-8steps%2Freleases%2Ftag%2Fv1.11.01">
 
 
 <div align="center"> 
