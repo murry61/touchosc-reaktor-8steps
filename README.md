@@ -57,7 +57,7 @@ A basic and easy to use TouchOSC template to control a Reaktor 8 STEPS Sequencer
 ## Connections
 - Reaktor Mapping: OSC
 - Ableton Host Mapping:  MIDI
-- Connections: MIDI "<Bridge1>"
+- Connections: MIDI Bridge
 - Connections: OSC Host, Ports: send 10000, receive 10000
 - Bridge: IP of your PC host
 - Setup: 
