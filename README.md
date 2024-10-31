@@ -1,7 +1,8 @@
 ## Reaktor 8 STEPS Sequencer TouchOSC template
 - Instrument: Reaktor 8 STEPS Sequencer, 1 track, 8 steps, MIDI out, Hosted / Standalone
 - Model: SEQ-R8S-1T8S-MHS
-- Version: 1.2  <a href= https://github.com/murry61/touchosc-reaktor-8steps/releases/tag/v1.2 ><img alt="GitHub Release" src="https://img.shields.io/github/v/release/murry61/touchosc-reaktor-8steps"></a>
+- Version: 1.2 
+- <a href= https://github.com/murry61/touchosc-reaktor-8steps/releases/tag/v1.2 ><img alt="GitHub Release" src="https://img.shields.io/github/v/release/murry61/touchosc-reaktor-8steps"></a>
 
 <div align="center"> 
 <img src="images/img3.gif" >
