@@ -1,6 +1,6 @@
 ## Reaktor 8 STEPS Sequencer TouchOSC template
-- Instrument: Reaktor 8 STEPS Sequencer, 1 track, 8 steps, MIDI out, Hosted in DAW
-- Model: SEQ-8S-1T8S-MH
+- Instrument: Reaktor 8 STEPS Sequencer, 1 track, 8 steps, MIDI out, Hosted / Standalone
+- Model: SEQ-R8S-1T8S-MHS
 - Version: 1.2
 
 <a href= https://github.com/murry61/touchosc-reaktor-8steps/releases/tag/v1.2 ><img alt="GitHub Release" src="https://img.shields.io/github/v/release/murry61/touchosc-reaktor-8steps"></a>
@@ -9,18 +9,12 @@
 <img src="images/img3.gif" >
 </div>
 
-## Description
-A basic and easy to use TouchOSC template to control a Reaktor 8 STEPS Sequencer virtual instrument. It can be used in a simple setup to jam and inspire your productions. The template sends the transport and playing values. The sequencer in turn sends the midi sequence to other hosted instruments in your DAW.  A return track sends back midi CC messages to visualize the position steps for an interactive experience. It "materializes" a small and basic "physical" sequencer for your musical production workflow to play virtual instruments or even an external modular gear by using it with Ableton CV tools.
-
-<div align="center"> 
-<img src="images/img1.jpg" >
-</div>
-
----
-
 ## Contents
+- [Description](#description)
+- [Operation](#operation)
 - [Instrument](#instrument)
 - [Sequencer](#sequencer)
+- [Reaktor rack]/#reaktor-rack)
 - [Connections](#connections)
 - [Requirements](#requirements)
 - [Files](#files)
@@ -28,15 +22,41 @@ A basic and easy to use TouchOSC template to control a Reaktor 8 STEPS Sequencer
 - [Support the Author](#support-the-author)
 
 
+## Description
+A simple and easy to use TouchOSC template to control a Reaktor 8 STEPS Sequencer virtual instrument. It can be used to jam and inspire your productions. The template sends the transport and sequencer values. The sequencer in turn sends the midi sequence to other virtual or external instruments.  A return track from the DAW sends back midi CC messages to visualize the position steps for an interactive experience. It "materializes" a small and basic "physical" sequencer for your musical production workflow.  
+
+## Operation
+The template can be used in 3 modes:
+
+### Mode 1: Reaktor running as a plugin hosted in Ableton
+This is the straightforward mode to use the template. The repository includes an Ableton live set file already configured with the internal MIDI routing and MIDI mapping for a quick start. You could later add an External Instrument or CV instrument track to send MIDI to an external synth or CV to a modular eurorack. 
+
+<div align="center"> 
+<img src="images/img1.jpg" >
+</div>
+
+### Mode 2: Reaktor running as a plugin hosted in other DAW
+This mode is similar to mode 1, using other DAW that supports **internal MIDI routing for plugins.** (no sample file included). Some of the DAWs known to support this functionality are: Bitwig, Cubase, FL Studio, Reaper, and Digital Performer. Each DAW handles MIDI routing slightly differently, so how you route MIDI between plugins may require specific setup steps in each environment. Load the Reaktor plugin in your DAW and use the rack (preset) file included in the repository. Configure in your DAW the MIDI mapping for the transport controls (play/stop/BPM) and adjust the BPM scaling.  
+
+### Mode 3: Reaktor running in Standalone Mode outside the DAW
+Run Reaktor in standalone mode outside of your DAW and load the rack (preset) file included in the repository. Enable "Sync to External Clock" in Reaktor to receive clock from your DAW and enable clock send in your DAW. Run a virtual midi port in your computer to communicate Reaktor with your DAW (loopMIDI recommended) and do the necessary midi port configurations and routing. Configure in your DAW the MIDI mapping for the transport controls (play/stop/BPM) and adjust the BPM scaling. 
+
+<div align="center"> 
+<img src="images/img5.jpg" >
+</div>
+
+### Sync and takeover limitations
+As long as your template and your DAW session are open, both are in sync. But once you close any of them, further changes will lose sync. To keep it in sync, it is recommended to manually save your template and DAW session simultaneously before closing, to keep your session and continue working later by recalling them. Also be aware that the template uses "absolute" scaling, so you occasionally will need to move the controllers to pick up the correct value.
+
+
 ## Instrument
-- Plugin: Native Instruments Reaktor 6 
+- Plugin: Native Instruments - Reaktor 6 
 - Library: Blocks Base
 - Main Module: SEQ-Bento 8 Steps Sequencer
-- Operation Mode:  **hosted** in Ableton Live
-- DAW Host:  Ableton Live 11/12
+- Operation Mode:  **hosted** or Standalone
+- DAW Host:  Ableton Live or other DAWs that support internal MIDI routing for plugins.
 
 ## Sequencer
-- Modular Block: Reaktor Bento Box 8 STEPS
 - Tracks: 1 track 
 - Steps: 8 steps, melodic sequencer
 - MIDI out: Pitch, gate (with velocity level)
@@ -50,41 +70,44 @@ A basic and easy to use TouchOSC template to control a Reaktor 8 STEPS Sequencer
 	- random (full-random) ?!
 - Offset: initial position of sequence
 - Reset: reset to initial position 
-- Pitch track: transpose using an external midi controler
-- Clock: External, Ableton Link 
+- Transpose: pitch track using an external midi controller
+- Clock: External - Ableton Link (Ableton hosted mode), External Sync Clock (Standalone mode) 
 - MIDI CC out: CC101 (gate), CC102 (position), CC103 (play)
 
 <div align="center"> 
 <img src="images/img4.jpg" >
 </div>
 
+## Reaktor rack
+- Blocks: BENTO Box
+- Important note: The rack uses a "hidden twin" sequencer to track position and return CC102 to the template. Do not erase or change inadvertently.  
+<div align="center"> 
+<img src="images/img6.jpg" >
+</div>
+
 ## Connections
 - Reaktor Mapping: OSC
-- Ableton Host Mapping:  MIDI
-- Connections - MIDI: Bridge
-- Connections - OSC: Host, Ports: send 10000, receive 10000
-- Bridge: IP of your PC host
-- Setup: 
-	- Bridge: IP of your PC host
-	- OSC: IP of your PC host
-	- Ableton Live MIDI settings: TouchOSC Bridge Input Port (Track, Remote), Output Port (Track, Sync, Remote)
+- DAW Host Mapping:  MIDI
+- TouchOSC Connections 
+	- MIDI: Bridge
+	- OSC: Host (IP of PC host), Ports: send 10000, receive 10000
+	- Bridge: Host(IP of PC host)
 
 ## Requirements
 - Control surface software: TouchOSC
 - Tablet: An iOS or Android Tablet
-- DAW: Ableton Live Version 11/12
+- DAW: Ableton Live or other DAWs that supports internal MIDI routing for plugins
 - Plugin: Native Instruments - Reaktor 6
 - Reaktor Modular Blocks: Blocks Base
 - Target virtual instrument: Any virtual instrument in your DAW
-- Target external instrument:  Any external midi instrument using midi out or Ableton CV tools (optional)
-- Optional external MIDI controller: Pitch transpose
+- Target external instrument:  Any external midi instrument 
+- Optional external MIDI controller: For pitch transpose
 
 ## Files
-- TouchOSC Template: SEQ-8S-1T8S-MH-1.2.tosc
-- Reaktor Rack:      SEQ-8S-1T8S-MH-1.2.nksr
-	- Important note: The rack uses a "hidden twin" sequencer to track position and return CC102 to the template. Do not change.
-- Ableton Live set:  SEQ-8S-1T8S-MH-1.2.als
-	- Track 1 - Reaktor sequencer: Reaktor 8 STEPS rack (preset), MIDI in receives transpose, MIDI out sends to track 2 and track 3.
+- TouchOSC Template: SEQ-R8S-1T8S-MHS-1.2.tosc
+- Reaktor Rack:      SEQ-R8S-1T8S-MHS-1_2.nksr
+- Ableton Live set:  SEQ-R8S-1T8S-MHS-1.2.als
+	- Track 1 - Reaktor sequencer: Reaktor 8 STEPS, MIDI in receives transpose, MIDI out sends to track 2 and track 3.
 	- Track 2 - TouchOSC Bridge MIDI return: MIDI in receives CC´s from track 1, MIDI out sends CC´s to TouchOSC Bridge 
 	- Track 3 - Basic Square: A sample Ableton stock virtual instrument to start playing, MIDI in from track 1. 
 
