@@ -1,9 +1,7 @@
 ## Reaktor 8 STEPS Sequencer TouchOSC template
 - Instrument: Reaktor 8 STEPS Sequencer, 1 track, 8 steps, MIDI out, Hosted / Standalone
 - Model: SEQ-R8S-1T8S-MHS
-- Version: 1.2
-
-<a href= https://github.com/murry61/touchosc-reaktor-8steps/releases/tag/v1.2 ><img alt="GitHub Release" src="https://img.shields.io/github/v/release/murry61/touchosc-reaktor-8steps"></a>
+- Version: 1.2  <a href= https://github.com/murry61/touchosc-reaktor-8steps/releases/tag/v1.2 ><img alt="GitHub Release" src="https://img.shields.io/github/v/release/murry61/touchosc-reaktor-8steps"></a>
 
 <div align="center"> 
 <img src="images/img3.gif" >
@@ -14,7 +12,7 @@
 - [Operation](#operation)
 - [Instrument](#instrument)
 - [Sequencer](#sequencer)
-- [Reaktor rack]/#reaktor-rack)
+- [Reaktor rack](#reaktor-rack)
 - [Connections](#connections)
 - [Requirements](#requirements)
 - [Files](#files)
@@ -35,8 +33,12 @@ This is the straightforward mode to use the template. The repository includes an
 <img src="images/img1.jpg" >
 </div>
 
+<br>
+
 ### Mode 2: Reaktor running as a plugin hosted in other DAW
 This mode is similar to mode 1, using other DAW that supports **internal MIDI routing for plugins.** (no sample file included). Some of the DAWs known to support this functionality are: Bitwig, Cubase, FL Studio, Reaper, and Digital Performer. Each DAW handles MIDI routing slightly differently, so how you route MIDI between plugins may require specific setup steps in each environment. Load the Reaktor plugin in your DAW and use the rack (preset) file included in the repository. Configure in your DAW the MIDI mapping for the transport controls (play/stop/BPM) and adjust the BPM scaling.  
+
+<br>
 
 ### Mode 3: Reaktor running in Standalone Mode outside the DAW
 Run Reaktor in standalone mode outside of your DAW and load the rack (preset) file included in the repository. Enable "Sync to External Clock" in Reaktor to receive clock from your DAW and enable clock send in your DAW. Run a virtual midi port in your computer to communicate Reaktor with your DAW (loopMIDI recommended) and do the necessary midi port configurations and routing. Configure in your DAW the MIDI mapping for the transport controls (play/stop/BPM) and adjust the BPM scaling. 
@@ -45,8 +47,12 @@ Run Reaktor in standalone mode outside of your DAW and load the rack (preset) fi
 <img src="images/img5.jpg" >
 </div>
 
+<br>
+
 ### Sync and takeover limitations
 As long as your template and your DAW session are open, both are in sync. But once you close any of them, further changes will lose sync. To keep it in sync, it is recommended to manually save your template and DAW session simultaneously before closing, to keep your session and continue working later by recalling them. Also be aware that the template uses "absolute" scaling, so you occasionally will need to move the controllers to pick up the correct value.
+
+<br>
 
 
 ## Instrument
