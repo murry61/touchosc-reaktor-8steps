@@ -1,6 +1,10 @@
+## Release notes v1.2.1
+### Bug-fixes 
+- Fixed an issue where the init command does not update correctly the pitch group.
+
+<br>
 
 ## Release notes v1.2
-
 ### Bug-fixes 
 - Removal of arrow controls and internal reset-latch which caused sync issues and playing troubles.
 
@@ -14,6 +18,8 @@
 ### New features
 - Init button to initialize all sequencer values
 - Track sequencer step position display
+
+<br>
 
 ## Release notes v1.11
 - First release
