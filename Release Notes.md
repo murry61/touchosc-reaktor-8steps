@@ -21,5 +21,5 @@
 
 <br>
 
-## Release notes v1.11
+## Release notes v1.1
 - First release
