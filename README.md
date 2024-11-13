@@ -16,7 +16,7 @@
 - [Reaktor rack](#reaktor-rack)
 - [Connections](#connections)
 - [Requirements](#requirements)
-- [Files](#files)
+- [Download](#download)
 - [License](#license)
 - [Support the Author](#support-the-author)
 
@@ -110,11 +110,11 @@ As long as your template and your DAW session are open, both are in sync. But on
 - Target external instrument:  Any external midi instrument 
 - Optional external MIDI controller: For pitch transpose
 
-## Files
+## Download
 You need to download the following files to use the template:
-- TouchOSC Template: [SEQ-R8S-1T8S-MHS-1.2.tosc](files/SEQ-R8S-1T8S-MHS-1.2.1.tosc)
-- Reaktor Rack:      [SEQ-R8S-1T8S-MHS-1_2.nksr](files/SEQ-R8S-1T8S-MHS-1_2.nksr)
-- Ableton Live set:  [SEQ-R8S-1T8S-MHS-1.2.als](files/SEQ-R8S-1T8S-MHS-1.2.als)
+- TouchOSC Template:    [SEQ-R8S-1T8S-MHS-1.2.tosc](files/SEQ-R8S-1T8S-MHS-1.2.1.tosc)
+- Reaktor Rack:         [SEQ-R8S-1T8S-MHS-1_2.nksr](files/SEQ-R8S-1T8S-MHS-1_2.nksr)
+- Ableton Live set:     [SEQ-R8S-1T8S-MHS-1.2.als](files/SEQ-R8S-1T8S-MHS-1.2.als)
 	- Track 1 - Reaktor sequencer: Reaktor 8 STEPS, MIDI in receives transpose, MIDI out sends to track 2 and track 3.
 	- Track 2 - TouchOSC Bridge MIDI return: MIDI in receives CC´s from track 1, MIDI out sends CC´s to TouchOSC Bridge 
 	- Track 3 - Basic Square: A sample Ableton stock virtual instrument to start playing, MIDI in from track 1. 
