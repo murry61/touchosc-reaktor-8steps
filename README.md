@@ -87,7 +87,7 @@ As long as your template and your DAW session are open, both are in sync. But on
 
 ## Reaktor rack
 - Blocks: BENTO Box
-- Important note: The rack uses a "hidden twin" sequencer to track position and return CC102 to the template. Do not erase or change inadvertently.  
+- Important note: The rack uses a "hidden twin" sequencer to track position and return CC102 to the template. Do not erase or change the values. 
 <div align="center"> 
 <img src="images/img6.jpg" >
 </div>
