@@ -111,7 +111,7 @@ As long as your template and your DAW session are open, both are in sync. But on
 - Optional external MIDI controller: For pitch transpose
 
 ## Download
-You need to download the following files to use the template:
+Download the following files to use the template:
 - TouchOSC Template:    [SEQ-R8S-1T8S-MHS-1.2.tosc](files/SEQ-R8S-1T8S-MHS-1.2.1.tosc)
 - Reaktor Rack:         [SEQ-R8S-1T8S-MHS-1_2.nksr](files/SEQ-R8S-1T8S-MHS-1_2.nksr)
 - Ableton Live set:     [SEQ-R8S-1T8S-MHS-1.2.als](files/SEQ-R8S-1T8S-MHS-1.2.als)
