@@ -37,7 +37,10 @@ This is the straightforward mode to use the template. The repository includes an
 <br>
 
 ### Mode 2: Reaktor running as a plugin hosted in other DAW
-This mode is similar to mode 1, using other DAW that supports **internal MIDI routing for plugins.** (no sample file included). Some of the DAWs known to support this functionality are: Bitwig, Cubase, FL Studio, Reaper, and Digital Performer. Each DAW handles MIDI routing slightly differently, so how you route MIDI between plugins may require specific setup steps in each environment. Load the Reaktor plugin in your DAW and use the rack (preset) file included in the repository. Configure in your DAW the MIDI mapping for the transport controls (play/stop/BPM) and adjust the BPM scaling.  
+This mode is similar to mode 1, using other DAW that supports **internal MIDI routing for plugins.** (no sample file included). Some of the DAWs known to support this functionality are: Bitwig, Cubase, FL Studio, Reaper, and Digital Performer. Each DAW handles MIDI routing slightly differently, so how you route MIDI between plugins may require specific setup steps in each environment. Load the Reaktor plugin in your DAW and use the rack (preset) file included in the repository. Configure in your DAW the MIDI mapping for the transport controls (play/stop/BPM) and adjust the BPM scaling. 
+
+> [!IMPORTANT]
+> **Add a MIDI track in your DAW for the TouchOSC Bridge MIDI return. MIDI in receives CC´s from Reaktor´s track, MIDI out sends CC´s to TouchOSC Bridge. See the Ableton´s example below in [download](#download) to compare.  
 
 <br>
 
