@@ -102,6 +102,7 @@ As long as your template and your DAW session are open, both are in sync. But on
 	- MIDI: Bridge
 	- OSC: Host (IP of PC host), Ports: send 10000, receive 10000
 	- Bridge: Host(IP of PC host)
+ -  See [How to Set Up TouchOSC with Reaktor](https://support.native-instruments.com/hc/en-us/articles/4408082499345-How-to-Set-Up-TouchOSC-with-Reaktor) in Native Instruments support site. 
 
 ## Requirements
 - Control surface software: TouchOSC
