@@ -22,7 +22,7 @@
 
 
 ## Description
-A simple and easy to use TouchOSC template to control a Reaktor 8 STEPS Sequencer virtual instrument. It can be used to jam and inspire your productions. The template sends the transport and sequencer values. The sequencer in turn sends the midi sequence to other virtual or external instruments.  A return track from the DAW sends back midi CC messages to visualize the position steps for an interactive experience. It "materializes" a small and basic "physical" sequencer for your musical production workflow.  
+A simple and easy to use TouchOSC template to control a Reaktor 8 STEPS Sequencer virtual instrument. It can be used to jam and inspire your productions. The template sends the transport and sequencer values. The sequencer in turn sends the midi sequence to other virtual or external instruments.  A return track from the DAW sends back midi CC messages to visualize the position steps for an interactive experience. It "materializes" a small and basic "physical" sequencer for your musical production workflow. [ :arrow_forward: Demo](https://www.youtube.com/shorts/88mlthJFuM0) 
 
 ## Operation
 The template can be used in 3 modes:
